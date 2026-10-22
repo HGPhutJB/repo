@@ -30,7 +30,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Phiên bản",
-     "text": "4.7.2"
+     "text": "4.7.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -54,7 +54,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "### 4.7.x\n- Dynamic Island hiện hẹn giờ / bấm giờ / báo thức / nhạc / cuộc gọi\n- Island giữ màu đen khi đang ở trong app, bung ra sau khi thoát\n- Thẻ app bay vào island khi thoát\n\n### 4.6.x\n- Thanh tab: phần kính của lens nhô ra ngoài không còn phủ màu thanh tab\n- Animation đóng / mở app nghiêng theo vị trí icon\n- Mục Thử nghiệm: animation mới\n\n### 4.5.x\n- Thanh tab blur thật, màu nền tùy chỉnh, lens có blur bên trong\n- Mở / đóng app liền mạch hơn\n\n### 4.1.0\n- Hộp thoại cao hơn, chỉnh lại cỡ chữ\n- Bỏ công tắc kiểu iOS 26\n\n### 4.0.x\n- Đổi tên thành 2712, tác giả PucPucPuc\n- Hộp thoại to hơn, bảng chọn kiểu iOS 26\n- Tự bảo vệ khi SpringBoard chết sớm\n- Icon, banner và mô tả mới\n\n### 3.10.x\n- Sửa lệch chữ trong nút hộp thoại\n- Hết nhấp nháy khi chạm nút\n- Viền kính mảnh, thanh tab tự đổi sáng / tối",
+     "markdown": "### 4.7.3\n- Nhạc: 4 vạch sóng âm\n- Quay màn hình: chấm đỏ bên trái, viền island đỏ đậm\n\n### 4.7.x\n- Dynamic Island hiện hẹn giờ / bấm giờ / báo thức / nhạc / cuộc gọi\n- Island giữ màu đen khi đang ở trong app, bung ra sau khi thoát\n- Thẻ app bay vào island khi thoát\n\n### 4.6.x\n- Thanh tab: phần kính của lens nhô ra ngoài không còn phủ màu thanh tab\n- Animation đóng / mở app nghiêng theo vị trí icon\n- Mục Thử nghiệm: animation mới\n\n### 4.5.x\n- Thanh tab blur thật, màu nền tùy chỉnh, lens có blur bên trong\n- Mở / đóng app liền mạch hơn\n\n### 4.1.0\n- Hộp thoại cao hơn, chỉnh lại cỡ chữ\n- Bỏ công tắc kiểu iOS 26\n\n### 4.0.x\n- Đổi tên thành 2712, tác giả PucPucPuc\n- Hộp thoại to hơn, bảng chọn kiểu iOS 26\n- Tự bảo vệ khi SpringBoard chết sớm\n- Icon, banner và mô tả mới\n\n### 3.10.x\n- Sửa lệch chữ trong nút hộp thoại\n- Hết nhấp nháy khi chạm nút\n- Viền kính mảnh, thanh tab tự đổi sáng / tối",
      "useSpacing": true
     }
    ]
