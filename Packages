@@ -1,0 +1,19 @@
+Package: com.wave12.unlockwave
+Version: 4.7.2
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.unlockwave_4.7.2_iphoneos-arm.deb
+Size: 420308
+MD5sum: 7448077a076c9e01490e8695de328b87
+SHA1: 22291d562e44d52638dc1b0176a5d6e2f30c43ee
+SHA256: 18c9b53ba54a0fbca180a667b9c57b7f4e709b4448e7bf21f8165ac4d7b697bf
+Section: Tweaks
+Name: 2712
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icon.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockwave.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockwave.json
+Description: Giao diện iOS 26 (Liquid Glass) cho iOS 12, tối ưu iPhone 6
+ 2712 mang diện mạo iOS 26 lên iPhone chạy iOS 12: icon lan từ tâm khi mở khóa, thẻ app phóng ra khi mở / đóng, thanh tab kính nổi với thấu kính lỏng, Trung tâm điều khiển và phím mật mã có viền kính, hộp thoại kiểu iOS 26 và Dynamic Island ảo cố định. Cài đặt tại Cài đặt › 2712. Tác giả PucPucPuc, ý tưởng từ 26Unlock của blu_tek.
+Suggests: preferenceloader
