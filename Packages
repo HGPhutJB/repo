@@ -1,13 +1,13 @@
 Package: com.wave12.unlockwave
-Version: 5.6.1
+Version: 5.6.2
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.unlockwave_5.6.1_iphoneos-arm.deb
-Size: 19150190
-MD5sum: 4dfe397d19822d359c712c6c8d14333f
-SHA1: fca13a99339ebbc9cb17f89fb8de01254f7d80ae
-SHA256: 910d44b5da10d1559039f2ac264d57cca683dfde255e60fdcc6fb1c8ff0e8b97
+Filename: debs/com.wave12.unlockwave_5.6.2_iphoneos-arm.deb
+Size: 19142022
+MD5sum: e77e67ca81ba62594321956d874979b9
+SHA1: 7b45c74ba13db796bc523e7e347129b6ba732c3a
+SHA256: d51106077dfe4e9d9f1a399da660b83f68049e46110262679aebf9372407be04
 Section: Tweaks
 Name: 2712
 Author: PucPucPuc
