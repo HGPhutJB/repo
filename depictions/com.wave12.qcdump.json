@@ -1,0 +1,20 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#FF9F0A",
+ "headerImage": "https://hgphutjb.github.io/repo/depictions/banner.png",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {"class": "DepictionSubheaderView", "title": "Temporary diagnostic tool", "useBoldText": true, "useBottomMargin": false},
+    {"class": "DepictionMarkdownView", "markdown": "Helper for the **2712** project. About 25 seconds after backboardd starts, it copies the QuartzCore code that is loaded in memory into a file in `/var/mobile/Library/Accessibility/` so it can be analysed.\n\nIt does **not** hook or change anything. Remove it once the files have been sent.", "useSpacing": true},
+    {"class": "DepictionSeparatorView"},
+    {"class": "DepictionTableTextView", "title": "Author", "text": "PucPucPuc"},
+    {"class": "DepictionTableTextView", "title": "Version", "text": "1.0"},
+    {"class": "DepictionTableTextView", "title": "Requires", "text": "iOS 12, arm64"}
+   ]
+  }
+ ]
+}

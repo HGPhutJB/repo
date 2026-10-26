@@ -1,3 +1,21 @@
+Package: com.wave12.qcdump
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate
+Filename: debs/com.wave12.qcdump_1.0_iphoneos-arm.deb
+Size: 3506
+MD5sum: 508af2a664f4d274b18f413150852a7c
+SHA1: 60ae4fd11b55763c61c19d6d1af1ecaf1bb27fe4
+SHA256: ca73af94452aa889745cc38f9e6521126d1a5a133ff9eed52811156b83634dae
+Section: Tweaks
+Name: Wave12 QuartzCore Dump (diagnostic)
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icon.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.qcdump.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.qcdump.json
+Description: Temporary diagnostic tool for 2712. Copies QuartzCore code from backboardd into a file for analysis. Changes nothing. Remove after use.
+
 Package: com.wave12.unlockwave
 Version: 5.9.2
 Architecture: iphoneos-arm
