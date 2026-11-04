@@ -17,15 +17,15 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.qcdump.jso
 Description: Temporary diagnostic tool for 2712. Copies QuartzCore code from backboardd into a file for analysis. Changes nothing. Remove after use.
 
 Package: com.wave12.unlockwave
-Version: 5.10.7
+Version: 5.10.9
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.unlockwave_5.10.7_iphoneos-arm.deb
-Size: 19162210
-MD5sum: 812bbc9f2bafdb2bc5096dd3490892eb
-SHA1: 8988c6c5192de3531e6faf98809d95e0478a1086
-SHA256: 034649b951b2e21c3a08a28956a2078ba9a5130e698679f467f1546c2c7f9bea
+Filename: debs/com.wave12.unlockwave_5.10.9_iphoneos-arm.deb
+Size: 19162794
+MD5sum: 5e6553653daf17975102a133fa54c6bb
+SHA1: f1b818738bee29e0d824d9cce8df8e81953dafc3
+SHA256: 103895f9f4c28af71e33943dfdac3e54af370c915c7507217d5663dee56d9efa
 Section: Tweaks
 Name: 2712
 Author: PucPucPuc
