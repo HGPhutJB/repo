@@ -11,7 +11,7 @@ SHA256: 237010e14b958e209a8e4ad3e53b70560bc6a5c4b1824bf8aa1a15183b96b804
 Section: Tweaks
 Name: 26Box
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.box26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.box26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.box26.json
 Description: Hộp thoại kiểu iOS 26
@@ -31,7 +31,7 @@ SHA256: 944ea7d6e434120e54ed06ace896b33cd54e8ad747963d334c716e8f6360eda0
 Section: Tweaks
 Name: 27CC
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.cc27.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.cc27.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.cc27.json
 Description: Trung tâm điều khiển kiểu kính
@@ -51,7 +51,7 @@ SHA256: dfa73a75e690e8de67ef2526632fc8f27117a641fa7352c5986a2909e5febebe
 Section: Tweaks
 Name: DynaFake
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.dynafake.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.dynafake.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.dynafake.json
 Description: Dynamic Island ảo
@@ -71,7 +71,7 @@ SHA256: bdad7717931822aa32cd061e339ebb28f5e844501911e5670c927f5ce0cc7959
 Section: Tweaks
 Name: 26Home
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.home26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.home26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.home26.json
 Description: Icon màn hình chính kiểu iOS 26
@@ -91,7 +91,7 @@ SHA256: 52963a0db695d4a03c461d55cdda6bbdafd9f1bbaa7db80bf7b907fa9130cdb1
 Section: Tweaks
 Name: Liquid Tab
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.liquidtab.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.liquidtab.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.liquidtab.json
 Description: Thanh tab kính nổi
@@ -111,7 +111,7 @@ SHA256: a7e0488fec694043094095ff9ee6541f7c421273e0f85cf7316cb7ca14ee1103
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.morph26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.morph26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.morph26.json
 Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
@@ -131,7 +131,7 @@ SHA256: 605dd27de6535b3d89801c4a5b663150f63b7baee575d0085706a6a11f0a6436
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.suite.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.suite.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.suite.json
 Description: Cài đủ 8 tweak của 2712 một lần
@@ -149,7 +149,7 @@ SHA256: 2fb6a790669caf3a0dd103bacec32047ea70ce7b56350d1c4000e3c56b495cfb
 Section: Tweaks
 Name: UnlockCode
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockcode.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockcode.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockcode.json
 Description: Phím mật khẩu nảy kiểu iOS 26
@@ -169,7 +169,7 @@ SHA256: b87d94746b2bbd054e67f72db3845624a33563b2e2370b171c02a9713fded246
 Section: Tweaks
 Name: OpenWave
 Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icon.png
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockwave.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockwave.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockwave.json
 Description: Hiệu ứng mở khóa lan từ tâm

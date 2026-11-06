@@ -40,7 +40,7 @@ for f in newest([x for x in os.listdir("debs") if x.endswith(".deb")]):
     ctrl["MD5sum"] = hashlib.md5(data).hexdigest()
     ctrl["SHA1"] = hashlib.sha1(data).hexdigest()
     ctrl["SHA256"] = hashlib.sha256(data).hexdigest()
-    ctrl["Icon"] = BASE + "/icon.png"
+    ctrl["Icon"] = BASE + ("/icons/" + pid + ".png" if os.path.exists("icons/" + pid + ".png") else "/icon.png")
     ctrl["Depiction"] = BASE + "/depictions/web/" + pid + ".html"
     ctrl["SileoDepiction"] = BASE + "/depictions/" + pid + ".json"
     entries.append("\n".join("%s: %s" % (k, ctrl[k]) for k in field_order(ctrl)))
