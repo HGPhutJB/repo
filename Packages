@@ -17,15 +17,15 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.js
 Description: Lightweight Gemini AI chat app for iOS 12 with a Claude-inspired interface.
 
 Package: com.wave12.box26
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.box26_6.0.2_iphoneos-arm.deb
-Size: 229502
-MD5sum: dde2943a6d88ebcc7872ce0b38ec842a
-SHA1: 99a8a1724e1e2a201686e3229619c147f8313767
-SHA256: ab3318914b4dd40d92f1d6002486ed696528691b185b4f23fcedfa7002886b25
+Filename: debs/com.wave12.box26_6.1.0_iphoneos-arm.deb
+Size: 230922
+MD5sum: 18eb239e0bf241496d3b317ba0cb218e
+SHA1: 4d3e4839fa8f6fc9abcbf89b95ff16eeecd8fb9e
+SHA256: dd358f8ec83b9e36e9c981ea1406436307a8d1e5df15f4b886765c0f97c04ac3
 Section: Tweaks
 Name: 26Box
 Author: PucPucPuc
@@ -37,15 +37,15 @@ Description: Hộp thoại kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.cc27
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.cc27_6.0.2_iphoneos-arm.deb
-Size: 224880
-MD5sum: 8e15c567970f0b670067b03749927ce0
-SHA1: 2f2c1fe3921b3fec306798186572bbb8d5b21f31
-SHA256: 4a6693be68ca3b50bebb58a483e62ebbc9e358ce5eefcddd1ab67a6f66c40155
+Filename: debs/com.wave12.cc27_6.1.0_iphoneos-arm.deb
+Size: 226306
+MD5sum: d5f514424aa7805e247036a84102d93c
+SHA1: 85258f67b0f7efc1a59ef88d00578d17db5a6621
+SHA256: 0d341407741b0c97faa676810a0954c1379ea830c5e0cbde02583e5f3e56b23a
 Section: Tweaks
 Name: 27CC
 Author: PucPucPuc
@@ -57,15 +57,15 @@ Description: Trung tâm điều khiển kiểu kính
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.dynafake_6.0.2_iphoneos-arm.deb
-Size: 232438
-MD5sum: 1d1422d2811faf272a1caf0fe45479d6
-SHA1: 0d14fe0ffd94fab6ce46e189c1c869751f87592f
-SHA256: 0a0341a29ab084ec1a2b30eedc187262439c9ae9a12e856814181b2ab176cc7e
+Filename: debs/com.wave12.dynafake_6.1.0_iphoneos-arm.deb
+Size: 234238
+MD5sum: 0c9971b35b36db1930b15976b0d7c8aa
+SHA1: 6cc15be76c2721b7ba3f96488a7c4b2d483e4a0e
+SHA256: ec523d94bfaa00b2b5e195a33bf75c8c4cad71c7fcb931b3f0233a60e7ceb693
 Section: Tweaks
 Name: DynaFake
 Author: PucPucPuc
@@ -77,15 +77,15 @@ Description: Dynamic Island ảo
 Suggests: preferenceloader
 
 Package: com.wave12.home26
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.home26_6.0.2_iphoneos-arm.deb
-Size: 18847598
-MD5sum: 1113960be3847afd7f5a8bb34cf67135
-SHA1: ccdefbd06766125c42095fff0d115895a21eac88
-SHA256: e71720742380be8ed23fd524c2f86bbc8e40eaaf917fa99b8aa4cf8fd305445c
+Filename: debs/com.wave12.home26_6.1.0_iphoneos-arm.deb
+Size: 18849092
+MD5sum: b45c8303d893bb4e27d64a1026dda5a8
+SHA1: e9c67d58d43c4197368a06ae1d26b95c5a61af02
+SHA256: bae23afdaefb61cee97ee57567854eea9b93c44d0e0a195ec3848afbcfab1565
 Section: Tweaks
 Name: 26Home
 Author: PucPucPuc
@@ -97,15 +97,15 @@ Description: Icon màn hình chính kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.liquidtab
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.liquidtab_6.0.2_iphoneos-arm.deb
-Size: 253084
-MD5sum: b3392cc6b4d0d884167d2d6007316c35
-SHA1: 7a4ce640f1b9ca9eabaaad49842c882b1517bf27
-SHA256: 6f25eed17e611af6c5da2c8dda176f342928822d8cf53108b1d22636fe68b2c9
+Filename: debs/com.wave12.liquidtab_6.1.0_iphoneos-arm.deb
+Size: 254390
+MD5sum: 951071bc7e75a185e6370baf2a967d03
+SHA1: 2a9334dfb64015c20c48a8f6f65c3c6bd622c57e
+SHA256: fdf069a627dd4f857ccf072b2dc2ce6bb2b742c954f9032fac2584cba169443f
 Section: Tweaks
 Name: Liquid Tab
 Author: PucPucPuc
@@ -117,15 +117,15 @@ Description: Thanh tab kính nổi
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.morph26_6.0.2_iphoneos-arm.deb
-Size: 236528
-MD5sum: de8907b5dcead5874696cd4c93696066
-SHA1: 70aef2de229be22b9f32d445bae49e0166fa62a0
-SHA256: 4329035d8fcd1f9955a3e5710b85f2e6deaec569936fdde9bed043141f715fe5
+Filename: debs/com.wave12.morph26_6.1.0_iphoneos-arm.deb
+Size: 238382
+MD5sum: 896743bad0a2b101428cfdf2fe22e962
+SHA1: a535e6a71401b80d9bcf46a7b9747aa8f925675f
+SHA256: 969a685ed393f95ebdcbae4600df8a42b80f5b7ed48bc52b29c60a1198365406
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
@@ -137,33 +137,33 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
-Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.0.2_iphoneos-arm.deb
-Size: 652
-MD5sum: d570cd61410ce2821db6b83a15d3be81
-SHA1: aafbda185ed82676c8d2a44771ce12a707975eb3
-SHA256: 515d38b473c77bebde1c3b17c167b4443dbe553b4f7e8a3b1697c96a6d159c37
+Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
+Filename: debs/com.wave12.suite_6.1.0_iphoneos-arm.deb
+Size: 656
+MD5sum: 266a7b9a39fae417fd0cc5df0306bef0
+SHA1: 9e199becc956dd68523a80d4d2f437f7e7d79145
+SHA256: eecb6404dfb2cbe40a2c454346598a67ddb050e7b63c7483d4e115d0e10648db
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.suite.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.suite.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.suite.json
-Description: Cài đủ 8 tweak của 2712 một lần
+Description: Cài đủ 9 tweak của 2712 một lần
 
 Package: com.wave12.unlockcode
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.unlockcode_6.0.2_iphoneos-arm.deb
-Size: 228276
-MD5sum: b790864ff849f307b6541f146b9fb332
-SHA1: 17fbad15094b74c6580f62d7dfebd1c335b0cbe0
-SHA256: d8351e9e72184b0a26f7f63972ec2a58f572d4e93f48f0f439a0c3b8ccac7b2b
+Filename: debs/com.wave12.unlockcode_6.1.0_iphoneos-arm.deb
+Size: 229822
+MD5sum: 8ca5827301a0771500aab01fe4eb5b3a
+SHA1: 7a7ebacfd812caa8babc70daf8b0035c000f050e
+SHA256: 36cc2ad002b47712a9c841469e02a3b338e222b20f726d979ddfc39be8ff0d6b
 Section: Tweaks
 Name: UnlockCode
 Author: PucPucPuc
@@ -175,15 +175,15 @@ Description: Phím mật khẩu nảy kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.unlockwave
-Version: 6.0.2
+Version: 6.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.unlockwave_6.0.2_iphoneos-arm.deb
-Size: 243420
-MD5sum: bbb752503dcf10094e78bcb658e5949c
-SHA1: 0b17208b7ea8061b029a4d5f82e66178b723d79f
-SHA256: 55526501240010c94b763f887bc82825587da251cb8d1dac92b2ec86c1cf7910
+Filename: debs/com.wave12.unlockwave_6.1.0_iphoneos-arm.deb
+Size: 245040
+MD5sum: 1be2f4d6bc08286e84a65e4f7d39bf8c
+SHA1: 652940a2759e7b0423f49d517302b31905f4560d
+SHA256: 12f21f1c78689eff8864050be518707f6e5e1784f2049826584d708cf8a223e0
 Section: Tweaks
 Name: OpenWave
 Author: PucPucPuc
@@ -192,4 +192,24 @@ Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockwave.
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockwave.json
 Description: Hiệu ứng mở khóa lan từ tâm
  Mở khóa: icon bay ra theo làn sóng từ tâm màn hình · Thoát app về Home cũng chạy làn sóng.
+Suggests: preferenceloader
+
+Package: com.wave12.wall26
+Version: 6.1.0
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.wall26_6.1.0_iphoneos-arm.deb
+Size: 4474166
+MD5sum: 00c61e76285488305047f4019aecdf25
+SHA1: f4b885ddfa182d3508f151a84a22dd70bf6af8ff
+SHA256: 2191431e127a61bf3588a5fa9d4c124c41e28d2d759ad6a7a210a6eccfaa425a
+Section: Tweaks
+Name: 26Wall
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.wall26.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.wall26.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.wall26.json
+Description: Màn hình khóa kiểu iOS 16: chủ thể che đồng hồ
+ Tự tách người, thú cưng, vật nổi bật khỏi hình nền khóa bằng AI chạy ngay trên máy · Đồng hồ chìm phía sau chủ thể, che cả ngày tháng.
 Suggests: preferenceloader
