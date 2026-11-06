@@ -37,15 +37,15 @@ Description: Hộp thoại kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.cc27
-Version: 6.0.2
+Version: 6.0.3
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.cc27_6.0.2_iphoneos-arm.deb
-Size: 226304
-MD5sum: 25f5c943d82bc8022dd8581cf87d260e
-SHA1: dde6ac2c93bcd06f1093f42cd32c46dcba982b56
-SHA256: 1623ca65fccf1128223de2ee423deba99872b5a8bccaf9ca9ff19eff724dd5d9
+Filename: debs/com.wave12.cc27_6.0.3_iphoneos-arm.deb
+Size: 226948
+MD5sum: b8924b73330c16c19383ba31d627dce3
+SHA1: 8253e6cbf34df68f1f96cc2cc3d5490bf49f62e6
+SHA256: 9da254869725868e8e5b496982017f68d92c7de0c2f34151c2fb722262109780
 Section: Tweaks
 Name: 27CC
 Author: PucPucPuc
