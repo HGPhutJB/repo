@@ -1,3 +1,21 @@
+Package: com.puc.claudemini
+Version: 0.2.1
+Architecture: iphoneos-arm
+Maintainer: puc <puc@users.noreply.github.com>
+Depends: firmware (>= 12.0)
+Filename: debs/com.puc.claudemini_0.2.1_iphoneos-arm.deb
+Size: 625598
+MD5sum: 9409cb86e9afb54b97bf05b12a16d1a1
+SHA1: eca6386421cb58714977c69df6a836f684c212ad
+SHA256: 30060a6dda43eb3466eb72a2323f23f92df55bf3293598d4849b7313fa399360
+Section: Utilities
+Name: ClaudeMini
+Author: puc <puc@users.noreply.github.com>
+Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
+Description: Lightweight Gemini AI chat app for iOS 12 with a Claude-inspired interface.
+
 Package: com.wave12.box26
 Version: 6.0.1
 Architecture: iphoneos-arm
