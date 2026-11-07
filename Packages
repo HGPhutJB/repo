@@ -137,15 +137,15 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.0
+Version: 6.1.1
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.0_iphoneos-arm.deb
-Size: 658
-MD5sum: ba1869185b60956c8b7f580af5953cbf
-SHA1: 2121c8dedb1a26b9f47f7809118a13c64531b78b
-SHA256: 87ca09d2429c647b682223693aea848816e5d4e080707d20bea94e5694e01a07
+Filename: debs/com.wave12.suite_6.1.1_iphoneos-arm.deb
+Size: 656
+MD5sum: a8ea6beb5ecc9faa1c84c38314395a63
+SHA1: 96943e356815d6b59f2e2d430fd7a814f59fb945
+SHA256: 05338bb601fcb9ca956a91a75a507a2a1d5dd2b1b42e83ff4bcdc2ed627adb53
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
