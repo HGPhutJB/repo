@@ -117,15 +117,15 @@ Description: Thanh tab kính nổi
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
-Version: 6.0.8
+Version: 6.0.9
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.morph26_6.0.8_iphoneos-arm.deb
-Size: 250320
-MD5sum: f1efd9aa4e555fbb5a0ed1b9599ea463
-SHA1: ba12fb465de29978b2b7b5b7abecf43dfb93316c
-SHA256: f6710a81a559337a802894e9747391dbf8a3fdb151f8b2a129e5717d5c745fc3
+Filename: debs/com.wave12.morph26_6.0.9_iphoneos-arm.deb
+Size: 252852
+MD5sum: c8158ec1c6511c3e7202f513017573dd
+SHA1: 52aad7d280c2a9db2f2e28f103ae96375f100246
+SHA256: b126125e4b43740fa1401bfceac078d1f9606a856c145cbb669d50ddb0cf088b
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
@@ -137,15 +137,15 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.9
+Version: 6.1.10
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.9_iphoneos-arm.deb
+Filename: debs/com.wave12.suite_6.1.10_iphoneos-arm.deb
 Size: 660
-MD5sum: 6a7e21a2278dacdc8e1fa9f0fb37b3e3
-SHA1: acf0fe440c25d919c0cfdf3f1364e7485e819c06
-SHA256: c172294bf7b42fafa073058d88359ee1ec1f9fcd99bd6a402065cf8ed1e21466
+MD5sum: 5a62afb38f87a44129ba33a4ef6b60c8
+SHA1: 78d04c5941fb855ad5e8b48e18df627645ffdf77
+SHA256: c230fc8a133b31db84213ec4def9f038722dec8b737b6bd442781305b376dacd
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
