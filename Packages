@@ -195,15 +195,15 @@ Description: Hiệu ứng mở khóa lan từ tâm
 Suggests: preferenceloader
 
 Package: com.wave12.wall26
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.wall26_1.0.4_iphoneos-arm.deb
-Size: 4479112
-MD5sum: 28fadc9d551301acbeb8cf2fb3cde2f2
-SHA1: 24e4976d4489032ea15ed47f361c81351b36fd4a
-SHA256: 0a899ef1287ed0fbadfe046331fb7c17734f30243e997a43bfcd1e1b5212233f
+Filename: debs/com.wave12.wall26_1.0.5_iphoneos-arm.deb
+Size: 4479626
+MD5sum: 3c00aaab4d0d01284940fab04649b25c
+SHA1: bfc1a13f359ce638d0ecc4b6c72a2fa8a50603be
+SHA256: 23d795fd0efb9641697ff6cb187fe479a325af419488bc900c2da19dbb919130
 Section: Tweaks
 Name: 26Wall
 Author: PucPucPuc
