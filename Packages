@@ -77,15 +77,15 @@ Description: Dynamic Island ảo
 Suggests: preferenceloader
 
 Package: com.wave12.home26
-Version: 6.0.3
+Version: 6.0.4
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.home26_6.0.3_iphoneos-arm.deb
-Size: 35802166
-MD5sum: 28e6c2e585575c7688d0314beac74d17
-SHA1: 91fa22f7410881eeb137ade653d1dda7f22ffa1b
-SHA256: 9fe1748c1f8be7edb5d8987804fe9205ff3eded0c3001b8718b957549a7df8b8
+Filename: debs/com.wave12.home26_6.0.4_iphoneos-arm.deb
+Size: 35804512
+MD5sum: 67021fdbd7e43d5fa227890198f6c5dc
+SHA1: 85cf3c34bb9e2927f9dafe390600397764e9431e
+SHA256: 8fc3ecbcb0cfdbc9e651334d0544fa2fc3876258a2a89a4af0cdbc19fc5da82e
 Section: Tweaks
 Name: 26Home
 Author: PucPucPuc
@@ -137,15 +137,15 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.2
+Version: 6.1.3
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.2_iphoneos-arm.deb
+Filename: debs/com.wave12.suite_6.1.3_iphoneos-arm.deb
 Size: 658
-MD5sum: 78734d98098d18aa2a2b32e5a82b9e0f
-SHA1: 5da73854021dc8f1e8ef9a11011ad43e484282b8
-SHA256: fc2e2360a5ea2e8d6fa6f5402401ee8f5cce14dcc266c4b4dbf70d293671a0cc
+MD5sum: 6d2d77901208fd5e58029c7de3b25c44
+SHA1: d5328f29735bd3796ff52c1291bca27d576311ab
+SHA256: 116cd5b719690d53a7022586865644e8afd4dd932250421363e23ba81ec334f2
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
