@@ -158,15 +158,15 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.16
+Version: 6.1.17
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.16_iphoneos-arm.deb
-Size: 660
-MD5sum: 57a66f8df50c30b409e2cc781db2874d
-SHA1: 2992ffa3c12f2b7035dc8461d850bf2c2a06b653
-SHA256: b0ec1786899c6de8f998098ebf419973372f028260b47bd10cbcd796ca95d41b
+Filename: debs/com.wave12.suite_6.1.17_iphoneos-arm.deb
+Size: 658
+MD5sum: f652d8db662700abae8a9811159933e0
+SHA1: e68da9aa11ce0eb517c00369ad50e1c20f266448
+SHA256: 743947b2dd5fd458eb8aaff6620af52787ad291a0ae559618826fb5542c58e07
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
@@ -176,15 +176,15 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.suite.json
 Description: Cài đủ 9 tweak của 2712 một lần
 
 Package: com.wave12.unlockcode
-Version: 6.0.2
+Version: 6.0.3
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.unlockcode_6.0.2_iphoneos-arm.deb
-Size: 229836
-MD5sum: 91e0398a3c25535bae049de32225b5b3
-SHA1: 70c65f5b62ee1606f1a513114945a0d490b768f6
-SHA256: f5c2d550367f4e857cbb9fe8fd057a7326b0937d8f0a3caf51664ed0de14c2ab
+Filename: debs/com.wave12.unlockcode_6.0.3_iphoneos-arm.deb
+Size: 234476
+MD5sum: 25ca53c60bc5c3aebeb4bf4ea1d038ec
+SHA1: 0122ac16509af217f2f986ca09e80c62879ad85b
+SHA256: 01f4476d1198da6f5b5565d53d45217e78cab3919e6abbb4fecf3bfe880c6074
 Section: Tweaks
 Name: UnlockCode
 Author: PucPucPuc
