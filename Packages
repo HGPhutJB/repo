@@ -26,9 +26,9 @@ Maintainer: puc <puc@users.noreply.github.com>
 Depends: firmware (>= 12.0)
 Filename: debs/com.puc.claudemini_0.4.1_iphoneos-arm.deb
 Size: 1051656
-MD5sum: fd4149bf4529506ba759e71b15f0b413
-SHA1: ec065e4879bc11b09b598e380656c8896f47a0db
-SHA256: 3b49474213c994896f09735c09882b8522ca767da79e5c2f4c8ea43930bd2ae6
+MD5sum: b51d8ff78c5b83b4c53cadd485ee3a6e
+SHA1: 6567869f4679e92bf6b76e12e5ef7b60b7f062a3
+SHA256: 2965bdb136c9eeb37ed0f83b807ec84ad545e99b958a54b23f238a24764eb978
 Section: Utilities
 Name: ClaudeMini
 Author: puc <puc@users.noreply.github.com>
