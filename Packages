@@ -78,15 +78,15 @@ Description: Trung tâm điều khiển kiểu kính
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
-Version: 6.0.5
+Version: 6.0.6
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.dynafake_6.0.5_iphoneos-arm.deb
-Size: 238948
-MD5sum: 8eba24f7502ad141102d3db9efad20d6
-SHA1: e42ee27ea2d29e8b338d75c03e50b2baa79ae49a
-SHA256: 938c55560b9218daa384f1b840f40cda8f1286739d4e169b24e298ba261d7517
+Filename: debs/com.wave12.dynafake_6.0.6_iphoneos-arm.deb
+Size: 243766
+MD5sum: 1e82f2b9f446848fa88e1e76e56b6151
+SHA1: cb31b0ac792febbd1b8a31353840c4011e9fa5b7
+SHA256: 6d74824a6a4aba680e9ceeaffc98321b071cfd7bd11dde8453aa3240caac1a09
 Section: Tweaks
 Name: DynaFake
 Author: PucPucPuc
@@ -158,15 +158,15 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.18
+Version: 6.1.19
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.18_iphoneos-arm.deb
+Filename: debs/com.wave12.suite_6.1.19_iphoneos-arm.deb
 Size: 660
-MD5sum: 7b150f07395f14240341f9b7d067efcc
-SHA1: 23e8599f8813d163fe9e163687088d1b333c7db6
-SHA256: 0c508e95b93a3682d65a101a46ff832d135a0378db99ddef903a52068ed9adaf
+MD5sum: a1fe8e8990a5e03690cdde9b304ad24b
+SHA1: 2842964216b9876f097e844657b0a1cde97ab594
+SHA256: 1952fad0e366fe90612be3e73e8ca138f60d3160158acc358d4b711c685b5656
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
