@@ -1,21 +1,3 @@
-Package: com.puc.claudemini
-Version: 0.4.0
-Architecture: iphoneos-arm
-Maintainer: puc <puc@users.noreply.github.com>
-Depends: firmware (>= 12.0)
-Filename: debs/40643910-com.puc.claudemini_0.4.0_iphoneos-arm.deb
-Size: 1068480
-MD5sum: de13bc0072344bfa48236cd336166dc3
-SHA1: 97f20706e86ffde502038cfdf702a6d7649ed239
-SHA256: 7cbb978b0fe7a6a3d7e948ecd81e375ec3f6aea3b15a04b27932cda54cec4d9b
-Section: Utilities
-Name: ClaudeMini
-Author: puc <puc@users.noreply.github.com>
-Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
-Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
-SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
-Description: Lightweight Gemini AI chat app for iOS 12 with a Claude-inspired interface.
-
 Package: com.cokepokes.appstoreplus
 Version: 2.3.15-7
 Architecture: iphoneos-arm
@@ -36,6 +18,24 @@ Depiction: https://hgphutjb.github.io/repo/depictions/web/com.cokepokes.appstore
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.cokepokes.appstoreplus.json
 Description: App Store companion for jailbroken iOS devices
 Priority: optional
+
+Package: com.puc.claudemini
+Version: 0.4.1
+Architecture: iphoneos-arm
+Maintainer: puc <puc@users.noreply.github.com>
+Depends: firmware (>= 12.0)
+Filename: debs/com.puc.claudemini_0.4.1_iphoneos-arm.deb
+Size: 1051656
+MD5sum: fd4149bf4529506ba759e71b15f0b413
+SHA1: ec065e4879bc11b09b598e380656c8896f47a0db
+SHA256: 3b49474213c994896f09735c09882b8522ca767da79e5c2f4c8ea43930bd2ae6
+Section: Utilities
+Name: ClaudeMini
+Author: puc <puc@users.noreply.github.com>
+Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
+Description: Lightweight Gemini AI chat app for iOS 12 with a Claude-inspired interface.
 
 Package: com.wave12.box26
 Version: 6.0.2
