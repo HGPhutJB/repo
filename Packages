@@ -78,15 +78,15 @@ Description: Trung tâm điều khiển kiểu kính
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
-Version: 6.0.24
+Version: 6.0.25
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.dynafake_6.0.24_iphoneos-arm.deb
-Size: 269348
-MD5sum: 34c84316d7b3087a00db20458ceaf497
-SHA1: 85cc1b1c52182e674a63a0d0f62d85e58e0cefe0
-SHA256: 440818e89acee2ead2f2c02f7138493534044d6952956d6dd737ceb2c11e9612
+Filename: debs/com.wave12.dynafake_6.0.25_iphoneos-arm.deb
+Size: 269846
+MD5sum: 963a1248527fe9b945ba5a0d3d356453
+SHA1: bc1cb54feb7acc5f6f5e3d9795e8fbc7b3403fda
+SHA256: 8dba3e24e7568b7bfa129f07b24b14779163075c63732d06db73997906904abd
 Section: Tweaks
 Name: DynaFake
 Author: PucPucPuc
@@ -178,15 +178,15 @@ Description: Siri kính lỏng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.46
+Version: 6.1.47
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.46_iphoneos-arm.deb
+Filename: debs/com.wave12.suite_6.1.47_iphoneos-arm.deb
 Size: 664
-MD5sum: 2e57e292e9a253249da82dd2f73075dd
-SHA1: cb9a42a4fc46b0ed09b6e5d42620faaceafa9d02
-SHA256: fce65c38e60954a5035a7c302f07a53204836292d08c27f8e087bea6db0c6ec1
+MD5sum: 1104aae59cef465dbd9d55fe463d6123
+SHA1: 548a23cb031f50a9dc267f3c58a31ec0427d7deb
+SHA256: ccb29552332ab61797d7cef300e25a868de0d1942cb27965c9e50dbf431959c5
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
