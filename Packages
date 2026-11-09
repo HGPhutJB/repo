@@ -158,15 +158,15 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.siri27
-Version: 1.3.1
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.siri27_1.3.1_iphoneos-arm.deb
-Size: 246696
-MD5sum: a4d2fb1dea202035ae98e7564f9622ee
-SHA1: ee10358765f579052be2d55caf4d629412f1a3c5
-SHA256: ada285f9528806bb08cd8fa1ac8dc50d4ca2db899391d70ef4d0dda1ebb895d5
+Filename: debs/com.wave12.siri27_1.4.0_iphoneos-arm.deb
+Size: 247810
+MD5sum: 851b9199d70e336f2b431b5daf841961
+SHA1: 63d9c060f62705e186d1faa3bf624e1850b85b78
+SHA256: 170c15adbc2fa5bae305821a563d76864c0fcb50b52b6625c2080796ac0c2596
 Section: Tweaks
 Name: 27Siri
 Author: PucPucPuc
@@ -178,15 +178,15 @@ Description: Siri kính lỏng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.43
+Version: 6.1.44
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.43_iphoneos-arm.deb
-Size: 662
-MD5sum: 44705f4cf60c28633cb7d592400bfb6b
-SHA1: 4bf6ecf98fa3f9b6566c784be8e83813eec0915f
-SHA256: 6e2257c46d58f930f943328797508e1ef82a5a89baa12ceb0266f5422bcf3f82
+Filename: debs/com.wave12.suite_6.1.44_iphoneos-arm.deb
+Size: 664
+MD5sum: 08062590f9bf42c461d2e30b59ea4c5e
+SHA1: 74d0ee47d528c535c368fa07dcd2123121c93141
+SHA256: 760998e78ee4014203f15df7ed0a8eb311ecb903dc1c926953c98e86fce22f00
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
