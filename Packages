@@ -157,23 +157,43 @@ Description: Hiệu ứng mở / đóng ứng dụng kiểu iOS 26
  Ứng dụng phóng ra từ đúng icon vừa chạm, thu về icon khi thoát · Bo góc, nghiêng 3D, làm mờ màn hình chính.
 Suggests: preferenceloader
 
-Package: com.wave12.suite
-Version: 6.1.36
+Package: com.wave12.siri27
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
-Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.36_iphoneos-arm.deb
-Size: 660
-MD5sum: 6b3e0f41099a97a837af35c1d6b323fe
-SHA1: b3bc0791d230c5ee53a880df8cdf5b0266bebb00
-SHA256: cece8590fe1d7aae81fe73636f19a160f93d23f59e86b72e03d91321063975a4
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.siri27_1.0.0_iphoneos-arm.deb
+Size: 238244
+MD5sum: 0e56e56a734d38b0660d7482fde27df9
+SHA1: bf17f47a199007e69f6e46f68593b23ac67c7790
+SHA256: c78fd71bd0c1197905da7088fd9d3f6a617b59c0c3702bc27a6b6331c18337d3
+Section: Tweaks
+Name: 27Siri
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.siri27.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.siri27.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.siri27.json
+Description: Siri kính lỏng kiểu iOS 26
+ Mở Siri: tự chụp màn hình làm nền mờ, thoát Siri thì tự xóa ảnh · Thanh Siri bằng kính khúc xạ thật, viền sáng và hào quang nhiều màu.
+Suggests: preferenceloader
+
+Package: com.wave12.suite
+Version: 6.1.37
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
+Filename: debs/com.wave12.suite_6.1.37_iphoneos-arm.deb
+Size: 664
+MD5sum: f7df690f7683dcab23f7f6b916ef0962
+SHA1: dfdee7dbabfbb53fbe5b00b8e9f1e4edadd15f1e
+SHA256: 01e7ec9a3c91c0cec1bf8cedf60c181cf36ad34bad9416c1351046cbbc9b2731
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.suite.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.suite.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.suite.json
-Description: Cài đủ 9 tweak của 2712 một lần
+Description: Cài đủ 10 tweak của 2712 một lần
 
 Package: com.wave12.unlockcode
 Version: 6.0.7
