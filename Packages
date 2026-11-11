@@ -20,22 +20,22 @@ Description: App Store companion for jailbroken iOS devices
 Priority: optional
 
 Package: com.puc.claudemini
-Version: 0.4.1
+Version: 0.5.1
 Architecture: iphoneos-arm
 Maintainer: puc <puc@users.noreply.github.com>
 Depends: firmware (>= 12.0)
-Filename: debs/com.puc.claudemini_0.4.1_iphoneos-arm.deb
-Size: 1051656
-MD5sum: b51d8ff78c5b83b4c53cadd485ee3a6e
-SHA1: 6567869f4679e92bf6b76e12e5ef7b60b7f062a3
-SHA256: 2965bdb136c9eeb37ed0f83b807ec84ad545e99b958a54b23f238a24764eb978
+Filename: debs/com.puc.claudemini_0.5.1_iphoneos-arm.deb
+Size: 1022562
+MD5sum: 04fa6a6b4dd8d8a4b94ce9d10a5a7e93
+SHA1: 77596b5cad148e9745ebe0328fcb385cb7349a9a
+SHA256: cebb4ef796a3aba28934958f80487b5ef8b89d867d91cce0cf93e0d86ff5f0e3
 Section: Utilities
 Name: ClaudeMini
 Author: puc <puc@users.noreply.github.com>
 Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
-Description: Lightweight Gemini AI chat app for iOS 12 with a Claude-inspired interface.
+Description: The Best Gemini client for iOS 12 or Later
 
 Package: com.wave12.box26
 Version: 6.0.2
