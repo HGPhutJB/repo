@@ -1,0 +1,46 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#34c759",
+ "tabs": [
+  {
+   "tabname": "Chi tiết",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Animation sạc pin magsafe",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Tweak gốc: **MagSafe Controller** của Tomasz Poliszuk.\n\nCài đặt nằm ở **Cài đặt › MagSafe Controller**.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tác giả",
+     "text": "Tomasz Poliszuk"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Phiên bản",
+     "text": "1.1.4"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Hỗ trợ",
+     "text": "iOS 12+ · arm64"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    }
+   ]
+  }
+ ]
+}

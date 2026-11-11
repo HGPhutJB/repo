@@ -37,6 +37,28 @@ Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.htm
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
 Description: The Best Gemini client for iOS 12 or Later
 
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.4_iphoneos-arm.deb
+Size: 116444
+MD5sum: 98231bca6dea576871e1bd73b8dc4287
+SHA1: 8379f37e88d07335103a12f2d2712a66e29eb501
+SHA256: cca6d2df369429137b37c3dd57267832e0a40929707cf1921499518230c856ec
+Section: Tweaks
+Name: MagSafe Animation
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Icon: https://hgphutjb.github.io/repo/icons/com.tomaszpoliszuk.magsafecontroller.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.tomaszpoliszuk.magsafecontroller.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.tomaszpoliszuk.magsafecontroller.json
+Description: Animation sạc pin magsafe
+Tag: purpose::extension
+
 Package: com.wave12.box26
 Version: 6.0.2
 Architecture: iphoneos-arm
@@ -134,15 +156,15 @@ Description: Tab bar iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
-Version: 6.0.28
+Version: 6.0.29
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.morph26_6.0.28_iphoneos-arm.deb
-Size: 290646
-MD5sum: 3ed23d2684d27f0c72783b495306dbb9
-SHA1: 9d1312589bc59d4be33b8a9e17fd7d282aee533b
-SHA256: b3905c4f2ac9e949b0f15fef2a190e344aa48bb280deeed31a014fd70faeb9d4
+Filename: debs/com.wave12.morph26_6.0.29_iphoneos-arm.deb
+Size: 292024
+MD5sum: ccc5d1923cffadecd91422b587be9d5c
+SHA1: d9d83ded69a7d8672489b55f014856cf49a30e7c
+SHA256: b2fb18a9aba2ca25275ef0bfb8dce9a0f3883b51a3b79987a1665b7332e277da
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
@@ -173,15 +195,15 @@ Description: iOS 27 Siri AI cho iOS 12
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.64
+Version: 6.1.65
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.64_iphoneos-arm.deb
-Size: 646
-MD5sum: c3494d8cbaeae4a266324a3dd98cf180
-SHA1: 5da249b8c5d97b9688213c94b6c1a417dd0ca3d3
-SHA256: 02c5a35c515f6476cb05391e25350c3069aee1bedbd8a81d228c9a984ee160ce
+Filename: debs/com.wave12.suite_6.1.65_iphoneos-arm.deb
+Size: 642
+MD5sum: d9d9d21b0cfd27e5adf75a0e25eae1e7
+SHA1: 889da42afcad5d72995be4c0ff119b0caf4c329b
+SHA256: 6d43084af19c714ebcb2fb88a26faea70a26d269d56f05cb9cec90cdc1bd9b66
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
@@ -211,15 +233,15 @@ Description: Animation nảy mật khẩu của iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.unlockwave
-Version: 6.0.2
+Version: 6.0.3
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.unlockwave_6.0.2_iphoneos-arm.deb
-Size: 244986
-MD5sum: 297521fcad58a5c073e67f8c38c9b35a
-SHA1: 47904e50affc63f1d67c9545cb966818e35c178a
-SHA256: 2ead62e3cc5cb5f0691f3060c0ee7ec5e953b856c35e3d59e740ff0efdd0f2ff
+Filename: debs/com.wave12.unlockwave_6.0.3_iphoneos-arm.deb
+Size: 271336
+MD5sum: 0918998202fa40b8df13a3c6063b7b31
+SHA1: d65e1e374a426d0874685b0461b3d421c3bc25f6
+SHA256: 9a8bd46fe6f97541a6479350a51f4ecce8b2000715dfe4af2c47b8a4f5b30308
 Section: Tweaks
 Name: OpenWave
 Author: PucPucPuc
