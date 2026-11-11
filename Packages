@@ -138,15 +138,15 @@ Description: Thanh tab kính nổi
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
-Version: 6.0.24
+Version: 6.0.25
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.morph26_6.0.24_iphoneos-arm.deb
-Size: 287284
-MD5sum: 0d2b3d573055332a4f8d664b7328f141
-SHA1: 2b3d8d4003d5f0e0e734ee88a1831badba8a3cdb
-SHA256: 9e1010ef8e1b05a06481a0f76c93bb99cafb7580fb555a6dd8b3a58f7b2301b4
+Filename: debs/com.wave12.morph26_6.0.25_iphoneos-arm.deb
+Size: 288088
+MD5sum: 294a68c39423b096e6d6dd8ab67baa40
+SHA1: 5ebff6c8a17cb89791ede13e27fea830673a8d66
+SHA256: 5ffad05cf03729cf0d0a36e38ecaec33bef78e9b177cf2c8c86faded36e0f317
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
@@ -178,15 +178,15 @@ Description: Siri kính lỏng kiểu iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.58
+Version: 6.1.59
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.58_iphoneos-arm.deb
-Size: 664
-MD5sum: 0141bae543bdec735fbec8025f7a9f7b
-SHA1: d5cd1d77d78871aa71d072aa0e0150ff2f344213
-SHA256: 49e49bdd201cbae51c652c5f951ada17a5a4910989f6c3168525a2e934c19ae6
+Filename: debs/com.wave12.suite_6.1.59_iphoneos-arm.deb
+Size: 660
+MD5sum: b4a9d4e386c7cdd23ebcf0ba112f9203
+SHA1: b352fc6605862c971a555f24ebdb3d69d49ca226
+SHA256: 67c50ced5c2bf9a0d26b186e200d1b52fff57cfdb372f93dd917afbcbecf9aca
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
