@@ -134,15 +134,15 @@ Description: Tab bar iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
-Version: 6.0.26
+Version: 6.0.27
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.morph26_6.0.26_iphoneos-arm.deb
-Size: 287952
-MD5sum: d1b9571d19313bc5fc0ef021d9046b72
-SHA1: e32eed2462edf00ef21e460d38ff308b1876340c
-SHA256: 693585e3bcdf740c8c6419a7b5f90286a7bc7500a23407a2d654f665f2766498
+Filename: debs/com.wave12.morph26_6.0.27_iphoneos-arm.deb
+Size: 289560
+MD5sum: d674d2d41985736bf720e119fbfdc9cc
+SHA1: 07113b0c3ce6da47b988587686df63da8e3c0b2f
+SHA256: eb884748e285f17ae5f4e8afba6cfc1857fa15fc2c9cbe4f41de030acb4f6a0b
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
@@ -173,15 +173,15 @@ Description: iOS 27 Siri AI cho iOS 12
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.62
+Version: 6.1.63
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.62_iphoneos-arm.deb
-Size: 644
-MD5sum: 761d7201c7394ab11e92264ddbfe7641
-SHA1: 1d52854b9e47a26026345cfdf9d63022c54eedfa
-SHA256: f52e388bbec41c38cf4808f583f6de2a17b27a1f7d83c3383d952ea9afab299c
+Filename: debs/com.wave12.suite_6.1.63_iphoneos-arm.deb
+Size: 646
+MD5sum: 32d75e3fea1adc89f8b42f0073186608
+SHA1: 764d1853fd6b1505ae0c186485f0089e3c46fa6d
+SHA256: 343a762204bf0631b66adba5bc2b8d8228a89722d3c1dbdb70be991aa11e0fa8
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
