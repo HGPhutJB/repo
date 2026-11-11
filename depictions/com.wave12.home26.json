@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionSubheaderView",
-          "title": "Tùy chỉnh màn hình khóa giống iOS 26/27",
+          "title": "Tùy chỉnh màn hình chính giống iOS 26/27",
           "useBoldText": true,
           "useBottomMargin": false
         },

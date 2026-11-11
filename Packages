@@ -44,9 +44,9 @@ Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.box26_6.0.2_iphoneos-arm.deb
 Size: 230840
-MD5sum: 9df2ff47c9b01dc1cddaae1bf45accc5
-SHA1: da3a52a3f1a873743552f6710de6e758fa9f4b01
-SHA256: 43687362a1fcca98bf3c25a4d7a78dd982641c3298f2e9b5a455dc348b5e5bba
+MD5sum: a179ec6bcdf00535993d2c2d09bf5a9b
+SHA1: 34f4d676dd3a9b6c554526b0ea0415e2256c1b9b
+SHA256: 59ddfe20261088cb233d41bbd4bcef4e35af145ed1ee1f2a185f514558af4596
 Section: Tweaks
 Name: 26Box
 Author: PucPucPuc
@@ -63,9 +63,9 @@ Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.cc27_6.0.5_iphoneos-arm.deb
 Size: 227048
-MD5sum: b037c8addeffc3754c64f4127b37174d
-SHA1: f6e97c1c4435aa4e1d94c672d53a1f31e0615ecd
-SHA256: 4ba84e539bb206dbeb6eb3b7776d299d82492f753ad864c523e3b82e388fe497
+MD5sum: 77fa22ed529e385016dbe63fe3ca8060
+SHA1: af65dd883f314ea4e7176ded663c50ab8daa6518
+SHA256: f68d6f2bee2ff98406a41cc771a786f4569c8f68ff12358a8760e180f7a2c847
 Section: Tweaks
 Name: 27CC
 Author: PucPucPuc
@@ -101,17 +101,17 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.home26_6.0.4_iphoneos-arm.deb
-Size: 35804388
-MD5sum: f6c52cf9fe773ee3b954f1bf36305fe7
-SHA1: eb3e8917c2e5e1b0028a2bd20556d49dbd042822
-SHA256: 53701a2fea76a8d44a16491412a68cf4b2900b25dd3ef58be443fa45e5dcd4c9
+Size: 35804390
+MD5sum: 29fa1c9f3cdd691264412da1b002ab55
+SHA1: 4f15644217c8aee5f599cd04f24ac24a9d5a00fd
+SHA256: 1039b6142d082707ff66384ddcaae10f32a4f7978776dedac2a30fa3ec60c3f8
 Section: Tweaks
 Name: 26Home
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.home26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.home26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.home26.json
-Description: Tùy chỉnh màn hình khóa giống iOS 26/27
+Description: Tùy chỉnh màn hình chính giống iOS 26/27
 Suggests: preferenceloader
 
 Package: com.wave12.liquidtab
@@ -120,10 +120,10 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.liquidtab_6.0.2_iphoneos-arm.deb
-Size: 254302
-MD5sum: 8672c00181176166379679ba6f8aebfd
-SHA1: 5157dbdc700e13a57287f270e1a7adb0e532b4ca
-SHA256: f78ca0a3fa0bd71624e090375b71f2676287691472688d851b32abb313f4d484
+Size: 254300
+MD5sum: 1a4ac2051c4554d095d9cc4a50f19a64
+SHA1: 2ccc10a82fa8d10b1cf82c05650d7c21126c89c4
+SHA256: 08d37dbd12daaacf4155cc67ee0339d6f000aabb6eb2306d76a9719029913a1b
 Section: Tweaks
 Name: Liquid Tab
 Author: PucPucPuc
@@ -139,10 +139,10 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.morph26_6.0.26_iphoneos-arm.deb
-Size: 287954
-MD5sum: 49da37961656286d8e885889a88dd81a
-SHA1: c3bc85f0239993f4d9f7cc768d5b15315cc5e4dd
-SHA256: b7175a915fbb4b5ed60de179c2ebe072fd5194947d4ba8dba08f5dabff7d0690
+Size: 287952
+MD5sum: d1b9571d19313bc5fc0ef021d9046b72
+SHA1: e32eed2462edf00ef21e460d38ff308b1876340c
+SHA256: 693585e3bcdf740c8c6419a7b5f90286a7bc7500a23407a2d654f665f2766498
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
@@ -159,10 +159,10 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.siri27_1.5.0_iphoneos-arm.deb
-Size: 247696
-MD5sum: ce12ddc767383d17c7582e0cc655de37
-SHA1: 57d82d986c5ee672686c0d3506e7d25f7c6c72a1
-SHA256: fe88fd9ef1b9078fc49bbe73aaa23c0eb0d9d58464ffba1c9c6909731859659f
+Size: 247694
+MD5sum: 16f86ea485e5eae6fc66a2202772519a
+SHA1: da31ea8ba096a936378424a1042fa4bb8bed1e09
+SHA256: 81ad1f8cfa25d5d70dc1ebd33ccb44a81a6e9f5563bfe0bd936bb5d885159759
 Section: Tweaks
 Name: 27Siri
 Author: PucPucPuc
@@ -196,10 +196,10 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.unlockcode_6.0.7_iphoneos-arm.deb
-Size: 247574
-MD5sum: bb81c0a7b407576fc679f520a7992547
-SHA1: c15a92e6539bac66fabe3b21aaaebdb6cb387b79
-SHA256: 149cf2097b6e5597015192e1c8ac3cfe6f1fe08c1448ec468db9e67ab1a0b045
+Size: 247570
+MD5sum: 9142103fa05d9fded215b870a76c5217
+SHA1: 9a2bc8dfbaaadc38a340441a1877ae0be9574312
+SHA256: 29fcfdb25282ab77c8b17de67aacd6218c959028ad881a73d10059b52fcd2574
 Section: Tweaks
 Name: UnlockCode
 Author: PucPucPuc
@@ -216,10 +216,10 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.unlockwave_6.0.2_iphoneos-arm.deb
-Size: 244988
-MD5sum: 5a6926a9f34fd0dfd725be8361971a57
-SHA1: ffbb8932ea511b9114837f5fd3941e1e7faba0ae
-SHA256: 499d9456887b323e393c7d4f6ce8fc8f9e614c914e76aa21f6740a153d58f719
+Size: 244986
+MD5sum: 297521fcad58a5c073e67f8c38c9b35a
+SHA1: 47904e50affc63f1d67c9545cb966818e35c178a
+SHA256: 2ead62e3cc5cb5f0691f3060c0ee7ec5e953b856c35e3d59e740ff0efdd0f2ff
 Section: Tweaks
 Name: OpenWave
 Author: PucPucPuc
@@ -236,9 +236,9 @@ Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.wall26_1.0.7_iphoneos-arm.deb
 Size: 4479998
-MD5sum: 42a01511eaa891cf61f413201fa3720d
-SHA1: 7f8041a73e4e3701400dde571efb1b8c1f5ce681
-SHA256: ff91643a7d0ee4fc457559944d491c909ff8d4920aa4957771e9af060de1e141
+MD5sum: 009306d3f63d039e6577a5ec21db0be1
+SHA1: 10620186c2873fe73bf7f72b9690c77e196cca14
+SHA256: bf4be5cdfacee049cee077ff949d1a7da347cc23642670698d46e5482653df7e
 Section: Tweaks
 Name: 26Wall
 Author: PucPucPuc

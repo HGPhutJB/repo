@@ -6,16 +6,16 @@ Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: Repo của PucPucPuc: tweak 2712 (giao diện iOS 26 cho iOS 12)
-Date: Wed, 11 Nov 2026 05:33:47 UTC
+Date: Wed, 11 Nov 2026 05:36:40 UTC
 MD5Sum:
- 11497073a667d5ecf8d86eecd45b6ee1 10135 Packages
- c345d19ce30ce06ed95c84066e25d1ca 2845 Packages.gz
- 35636f02fc0f8e7a0d08bbdf98b7d9f5 2812 Packages.bz2
+ 6acc7f275453cad0aa5da8e0f7a0f48d 10136 Packages
+ 2909e6d6076a372ea96214a08fca945c 2855 Packages.gz
+ 9c8159faf8d9a6643f830d05af48cc75 2839 Packages.bz2
 SHA1:
- 9168e58fbfd066000da42aa686ae2699a48a1b95 10135 Packages
- 8a9893d9e6f25dd9fa654524a41763368dbed0f8 2845 Packages.gz
- 85a1339794c5bba8e558b786d2cc2582c27dcfe4 2812 Packages.bz2
+ 42141210eea0b92e97c2d89933c8cc714e91d729 10136 Packages
+ abe45676934457a56178aeb8f1ab0c26fb5e7c7d 2855 Packages.gz
+ 33858a297b954eeff683a59954dab479691de82c 2839 Packages.bz2
 SHA256:
- 05ef89221d47a9eb75f59b350037004d19f19270ee99d7e047638df6887fb3fd 10135 Packages
- c4aacf31be974877e7f6c157b7848d340b9ab06533ac0bd5b06d3c4d42427094 2845 Packages.gz
- 48b99ae790f8935b7ce17fa3d91d8e1ad42802b742c91d10143215224a1cacd5 2812 Packages.bz2
+ 063a2c1d4452d2b85a34af87a474f6d0b619ad28ebe42c0011674dc44d88e2e6 10136 Packages
+ 6933baae99c8bb5cf16d0731d194ac2a13da3d2e160cb70f37b97ee7b830bcf3 2855 Packages.gz
+ 7ed7d95bc2f3a7d646eebdb107df06303b7be6ca0feefb6e18902b7ce73c59cc 2839 Packages.bz2
