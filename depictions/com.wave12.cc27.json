@@ -1,1 +1,57 @@
-{"minVersion": "0.1", "class": "DepictionTabView", "tintColor": "#34C759", "tabs": [{"tabname": "Chi tiết", "class": "DepictionStackView", "views": [{"class": "DepictionSubheaderView", "title": "Trung tâm điều khiển dạng kính", "useBoldText": true, "useBottomMargin": false}, {"class": "DepictionMarkdownView", "markdown": "- Các ô trong Trung tâm điều khiển có viền kính\n- Chỉnh được độ bo góc và độ đặc của nền\n\nCài đặt nằm ở **Cài đặt › 27CC**.", "useSpacing": true}, {"class": "DepictionSeparatorView"}, {"class": "DepictionTableTextView", "title": "Tác giả", "text": "PucPucPuc"}, {"class": "DepictionTableTextView", "title": "Phiên bản", "text": "6.0.5"}, {"class": "DepictionTableTextView", "title": "Hỗ trợ", "text": "iOS 12 · arm64 · rootful"}, {"class": "DepictionSpacerView", "spacing": 16}]}, {"tabname": "Thay đổi nhật ký", "class": "DepictionStackView", "views": [{"class": "DepictionMarkdownView", "markdown": "### 6.0.5\n- Sửa lỗi mất bo cong: phần nền của các ô giờ bo tròn khớp với viền kính\n- Chưa kiểm tra trên máy thật", "useSpacing": true}]}]}
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#34C759",
+  "tabs": [
+    {
+      "tabname": "Chi tiết",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Control Center viền glass iOS 26",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Cài đặt nằm ở **Cài đặt › 27CC**.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "PucPucPuc"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "6.0.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Hỗ trợ",
+          "text": "iOS 12 · arm64 · rootful"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        }
+      ]
+    },
+    {
+      "tabname": "Thay đổi nhật ký",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 6.0.5\n- Sửa lỗi mất bo cong: phần nền của các ô giờ bo tròn khớp với viền kính\n- Chưa kiểm tra trên máy thật",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

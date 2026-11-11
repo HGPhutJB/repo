@@ -43,18 +43,17 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.box26_6.0.2_iphoneos-arm.deb
-Size: 230910
-MD5sum: 2d1a112e80de0abb430c6cae5720c382
-SHA1: c240bf10f8e076106ea3045919b1fc4ce098b30d
-SHA256: fbd989b1f16425b619ce9c7a9d4645ffee07290747451f8c3eba651813c3b6b7
+Size: 230840
+MD5sum: 9df2ff47c9b01dc1cddaae1bf45accc5
+SHA1: da3a52a3f1a873743552f6710de6e758fa9f4b01
+SHA256: 43687362a1fcca98bf3c25a4d7a78dd982641c3298f2e9b5a455dc348b5e5bba
 Section: Tweaks
 Name: 26Box
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.box26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.box26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.box26.json
-Description: Hộp thoại kiểu iOS 26
- Nút trong hộp thoại và bảng chọn trong suốt, chữ căn giữa. Dùng được trong mọi app.
+Description: Hộp thoại thông báo iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.cc27
@@ -63,18 +62,17 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.cc27_6.0.5_iphoneos-arm.deb
-Size: 227136
-MD5sum: 119797dabc5088493cf1c8e7899fde29
-SHA1: 077a8a4881923aac125cf49310b50ec2cb5b3c76
-SHA256: 36d452ff8a1415c7917a0319dedd6c9e9fbe6a69c9ce536797a75b76a491b0bf
+Size: 227048
+MD5sum: b037c8addeffc3754c64f4127b37174d
+SHA1: f6e97c1c4435aa4e1d94c672d53a1f31e0615ecd
+SHA256: 4ba84e539bb206dbeb6eb3b7776d299d82492f753ad864c523e3b82e388fe497
 Section: Tweaks
 Name: 27CC
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.cc27.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.cc27.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.cc27.json
-Description: Trung tâm điều khiển dạng kính
- Các ô trong Trung tâm điều khiển có viền kính. Chỉnh được độ bo góc và độ đặc của nền.
+Description: Control Center viền glass iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
@@ -103,18 +101,17 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.home26_6.0.4_iphoneos-arm.deb
-Size: 35804446
-MD5sum: c9f434db82bc360c9ae4e90edf2a600c
-SHA1: 7aede89e42cda15b8322add1e4b9c9884eab4f12
-SHA256: 147aa938de357fe00fedb4ede120dc1ebf18701283725b4902e0e740cc650f5f
+Size: 35804388
+MD5sum: f6c52cf9fe773ee3b954f1bf36305fe7
+SHA1: eb3e8917c2e5e1b0028a2bd20556d49dbd042822
+SHA256: 53701a2fea76a8d44a16491412a68cf4b2900b25dd3ef58be443fa45e5dcd4c9
 Section: Tweaks
 Name: 26Home
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.home26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.home26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.home26.json
-Description: Icon màn hình chính kiểu iOS 26
- Chọn kiểu icon: mặc định, tối, trong suốt, phủ màu. Có sẵn bộ icon iOS 26.
+Description: Tùy chỉnh màn hình khóa giống iOS 26/27
 Suggests: preferenceloader
 
 Package: com.wave12.liquidtab
@@ -123,18 +120,17 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.liquidtab_6.0.2_iphoneos-arm.deb
-Size: 254382
-MD5sum: ff431e137e323e868d014bba98281dc4
-SHA1: 09ba3e9252c91089f39a8623130b190bcc5f9cdb
-SHA256: f15f6d0767244ad480205b0e759e6e2fa9488c7623bcdff7fa2b649f66050b3a
+Size: 254302
+MD5sum: 8672c00181176166379679ba6f8aebfd
+SHA1: 5157dbdc700e13a57287f270e1a7adb0e532b4ca
+SHA256: f78ca0a3fa0bd71624e090375b71f2676287691472688d851b32abb313f4d484
 Section: Tweaks
 Name: Liquid Tab
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.liquidtab.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.liquidtab.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.liquidtab.json
-Description: Thanh tab dạng kính
- Thanh tab nổi, trong suốt như kính. Chạm giữ có hiệu ứng thấu kính.
+Description: Tab bar iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
@@ -143,18 +139,18 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.morph26_6.0.26_iphoneos-arm.deb
-Size: 287970
-MD5sum: ae355ed2f1179218cca15b954965a2c1
-SHA1: df2435e676f83ff724c9facbf84cd3eae7ad6aaa
-SHA256: e6c625c8ac76f160824b7699eb569b2e979058e62441f383cd2810f173f85134
+Size: 287954
+MD5sum: 49da37961656286d8e885889a88dd81a
+SHA1: c3bc85f0239993f4d9f7cc768d5b15315cc5e4dd
+SHA256: b7175a915fbb4b5ed60de179c2ebe072fd5194947d4ba8dba08f5dabff7d0690
 Section: Tweaks
 Name: 26Morph
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.morph26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.morph26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.morph26.json
-Description: Hiệu ứng mở và đóng app
- App bay ra từ icon, thoát thì thu lại vào icon. Chọn được app không dùng hiệu ứng.
+Description: Animation đóng mở ứng dụng của iOS 26/27
+ Mã nguồn port từ 2 tweak 26Ani và iOS 27 animation.
 Suggests: preferenceloader
 
 Package: com.wave12.siri27
@@ -163,37 +159,36 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.siri27_1.5.0_iphoneos-arm.deb
-Size: 247758
-MD5sum: 077996233067eed61d1a6049bc8d8fa1
-SHA1: 299dd431dd24ed3e9127fb8b7ecdd4c830f0e71f
-SHA256: 46f4ab083cffea7e5a9b281eb5e731941af354d97b97fbcb01593ccd950c1b5b
+Size: 247696
+MD5sum: ce12ddc767383d17c7582e0cc655de37
+SHA1: 57d82d986c5ee672686c0d3506e7d25f7c6c72a1
+SHA256: fe88fd9ef1b9078fc49bbe73aaa23c0eb0d9d58464ffba1c9c6909731859659f
 Section: Tweaks
 Name: 27Siri
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.siri27.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.siri27.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.siri27.json
-Description: Siri kiểu iOS 26
- Siri hiện ngay trong đảo, nền kính. Ẩn giao diện Siri gốc.
+Description: iOS 27 Siri AI cho iOS 12
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.61
+Version: 6.1.62
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.61_iphoneos-arm.deb
-Size: 658
-MD5sum: 6d37e74867b4fc316df6fcc3e500daca
-SHA1: 00b5c246c90f55e31c5690b808f62789ec61b1b9
-SHA256: e4a6b20e107e7d732ed87c715c06d04e312e9ccf61aec845e5b4a650630821c5
+Filename: debs/com.wave12.suite_6.1.62_iphoneos-arm.deb
+Size: 644
+MD5sum: 761d7201c7394ab11e92264ddbfe7641
+SHA1: 1d52854b9e47a26026345cfdf9d63022c54eedfa
+SHA256: f52e388bbec41c38cf4808f583f6de2a17b27a1f7d83c3383d952ea9afab299c
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.suite.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.suite.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.suite.json
-Description: Cài cả 10 tweak cùng lúc
+Description: Tweak All in one trong repo
 
 Package: com.wave12.unlockcode
 Version: 6.0.7
@@ -201,18 +196,18 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.unlockcode_6.0.7_iphoneos-arm.deb
-Size: 247600
-MD5sum: a72587318b297e0e4cd1d02679b9bce1
-SHA1: 261cf337c1a9fe4068e2d7c0c0e826756f71c09c
-SHA256: 59e8f1ae26ef20672492c4c0bf3c35bb426e023a2d8cbdb5282957be8176282a
+Size: 247574
+MD5sum: bb81c0a7b407576fc679f520a7992547
+SHA1: c15a92e6539bac66fabe3b21aaaebdb6cb387b79
+SHA256: 149cf2097b6e5597015192e1c8ac3cfe6f1fe08c1448ec468db9e67ab1a0b045
 Section: Tweaks
 Name: UnlockCode
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockcode.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockcode.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockcode.json
-Description: Phím mật khẩu nảy khi chạm
- Chạm vào phím mật khẩu thì các phím nảy lên. Mỗi phím có viền kính.
+Description: Animation nảy mật khẩu của iOS 26
+ Mã nguồn của Blutek.
 Suggests: preferenceloader
 
 Package: com.wave12.unlockwave
@@ -221,18 +216,17 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.unlockwave_6.0.2_iphoneos-arm.deb
-Size: 245062
-MD5sum: 1dcdbe741ffdad7de2418800698eb3bb
-SHA1: e6da23d4d7bd3a1b529ea57fcbad094b17f7d556
-SHA256: ae9e106d8d37ff38695a9db03c7f6cc218c28bc1bf591061f8471a38e770a8eb
+Size: 244988
+MD5sum: 5a6926a9f34fd0dfd725be8361971a57
+SHA1: ffbb8932ea511b9114837f5fd3941e1e7faba0ae
+SHA256: 499d9456887b323e393c7d4f6ce8fc8f9e614c914e76aa21f6740a153d58f719
 Section: Tweaks
 Name: OpenWave
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockwave.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockwave.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockwave.json
-Description: Hiệu ứng mở khóa dạng sóng
- Mở khóa thì icon bay ra như sóng lan từ giữa màn hình. Thoát app về màn hình chính cũng có sóng.
+Description: Animation mở khóa iOS 26, giống 26Unlock
 Suggests: preferenceloader
 
 Package: com.wave12.wall26
@@ -241,16 +235,16 @@ Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
 Filename: debs/com.wave12.wall26_1.0.7_iphoneos-arm.deb
-Size: 4480038
-MD5sum: a97da2a760cdaddb0cf72918f0eb1e6c
-SHA1: c000a4f1861656038ef7d2ba901ebab77bd2f9a4
-SHA256: 7d9ce8b1e9ac775be68d3ba92335a70df4304513a3ac55cbded2c1e63ffa18f1
+Size: 4479998
+MD5sum: 42a01511eaa891cf61f413201fa3720d
+SHA1: 7f8041a73e4e3701400dde571efb1b8c1f5ce681
+SHA256: ff91643a7d0ee4fc457559944d491c909ff8d4920aa4957771e9af060de1e141
 Section: Tweaks
 Name: 26Wall
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.wall26.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.wall26.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.wall26.json
-Description: Hình nền khóa che đồng hồ
- Tự tách người hoặc vật nổi bật ra khỏi hình nền. Đồng hồ nằm sau chủ thể, giống iOS 16.
+Description: Màn hình khóa vật thể che đồng hồ
+ Còn vài lỗi, tách chưa thật mượt.
 Suggests: preferenceloader
