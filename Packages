@@ -98,15 +98,15 @@ Description: Control Center viền glass iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
-Version: 6.0.25
+Version: 6.0.26
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.dynafake_6.0.25_iphoneos-arm.deb
-Size: 269818
-MD5sum: 6770f081b529678cd17cd219fe9cb174
-SHA1: 8bf307f5eb91dab42a1672f5407e6f3447402702
-SHA256: c5a2b1c1e18b98b48a91eebe9ca64e974faecb6ad97fb9cc7c578ff0916125fe
+Filename: debs/com.wave12.dynafake_6.0.26_iphoneos-arm.deb
+Size: 273692
+MD5sum: 62cc9d1d27ee1bc609605f5bfeebf02e
+SHA1: 5cd76b0865b2e58bc2773746b991b4f071fe4b8f
+SHA256: f2e9483e9ecb4a3cf0cac3fe6f68982a09be04eff8ec20ede7756cbf156f57fe
 Section: Tweaks
 Name: DynaFake
 Author: PucPucPuc
@@ -195,15 +195,15 @@ Description: iOS 27 Siri AI cho iOS 12
 Suggests: preferenceloader
 
 Package: com.wave12.suite
-Version: 6.1.66
+Version: 6.1.67
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.66_iphoneos-arm.deb
+Filename: debs/com.wave12.suite_6.1.67_iphoneos-arm.deb
 Size: 646
-MD5sum: 5890b9b2615b37dcff26fdfe29e33fb6
-SHA1: 50a05e83e58663bcfdab41ef393764c21b09b185
-SHA256: 415a9133d62e24838406a41f6b9657c44f28c19a517a35c84d8ce259ec2ad2af
+MD5sum: ea438a3c7d16a16e1e20030321af9cf1
+SHA1: eca644678c1c67f2fc06af36efcbbf83e5c5823c
+SHA256: 1fb26582a1a5d4e82635234bd52e37b0b556b52fdbff24f5481aafd4e3100200
 Section: Tweaks
 Name: 2712 (trọn bộ)
 Author: PucPucPuc
