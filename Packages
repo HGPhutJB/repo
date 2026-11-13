@@ -37,6 +37,24 @@ Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.htm
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
 Description: The Best Gemini client for iOS 12 or Later
 
+Package: com.puc.lock18
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.puc.lock18_1.0.0_iphoneos-arm.deb
+Size: 46614
+MD5sum: 660c9be5cd42e0d14256e617c33e5a71
+SHA1: bfbdea736bba550f8d8793dfc6ee9cc97077a07d
+SHA256: 9e99825edf036279977e18a2e64b2c43b6c962c8596b1afd439608077b314157
+Section: Tweaks
+Name: 18LS
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.puc.lock18.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.lock18.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.lock18.json
+Description: Tuy bien dong ho man hinh khoa (font/mau/do day), dong ho nho gon kieu iOS 27, kem thanh pin + ten may
+
 Package: com.tomaszpoliszuk.magsafecontroller
 Version: 1.1.4
 Architecture: iphoneos-arm
