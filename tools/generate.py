@@ -72,7 +72,7 @@ rest = sorted([m for m in metas if m["Package"] not in order and m["Package"] !=
 apps = [m for m in metas if m["Package"] == "com.puc.claudemini"]
 suite = [m for m in metas if m["Package"] == "com.wave12.suite"]
 page = """<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Repo PucPucPuc</title>
-<meta name="description" content="Nguồn tweak cho iOS 12 (rootful): bộ 2712 giao diện kiểu iOS 26 và các tweak riêng lẻ.">
+<meta name="description" content="Nguồn tweak cho iOS 12 (rootful): các tweak giao diện kiểu iOS 26/27, cài riêng từng cái.">
 <style>:root{--bg:#fff;--fg:#111;--mut:#6b6b70;--card:#f2f2f7;--ac:#34c759;--ln:#e5e5ea}@media(prefers-color-scheme:dark){:root{--bg:#000;--fg:#f2f2f7;--mut:#98989d;--card:#1c1c1e;--ln:#2c2c2e}}
 *{box-sizing:border-box}body{font:16px/1.5 -apple-system,Helvetica,sans-serif;margin:0;padding:24px 16px 48px;background:var(--bg);color:var(--fg);max-width:600px;margin-inline:auto}
 header{display:flex;gap:14px;align-items:center}header img{width:72px;height:72px;border-radius:16px}h1{margin:0;font-size:26px}p{color:var(--mut);margin:.2em 0}
@@ -85,7 +85,6 @@ footer{margin-top:28px;color:var(--mut);font-size:13px}</style></head><body>
 <header><img src="icon.png" alt=""><div><h1>Repo PucPucPuc</h1><p>Nguồn tweak cho iOS 12 (rootful)</p></div></header>
 <h2>Thêm nguồn</h2><code>https://hgphutjb.github.io/repo/</code>
 <a class="b" href="sileo://source/https://hgphutjb.github.io/repo/">Thêm vào Sileo</a><a class="b" href="zbra://sources/add/https://hgphutjb.github.io/repo/">Thêm vào Zebra</a><a class="b" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://hgphutjb.github.io/repo/">Thêm vào Cydia</a>
-<h2>Cài một lần</h2>""" + "".join(card(m) for m in suite) + """
 <h2>Từng tweak (cài riêng được)</h2>""" + "".join(card(m) for m in rest) + """
 <h2>Ứng dụng</h2>""" + "".join(card(m) for m in apps) + """
 <footer>Cập nhật """ + time.strftime("%d/%m/%Y", time.gmtime()) + """. Các tweak chưa được kiểm tra hết trên máy thật, hãy sao lưu trước khi cài.</footer></body></html>"""

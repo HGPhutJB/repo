@@ -194,24 +194,6 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.siri27.jso
 Description: iOS 27 Siri AI cho iOS 12
 Suggests: preferenceloader
 
-Package: com.wave12.suite
-Version: 6.1.74
-Architecture: iphoneos-arm
-Maintainer: PucPucPuc
-Depends: com.wave12.unlockcode, com.wave12.unlockwave, com.wave12.morph26, com.wave12.liquidtab, com.wave12.home26, com.wave12.cc27, com.wave12.box26, com.wave12.wall26, com.wave12.siri27, com.wave12.dynafake
-Filename: debs/com.wave12.suite_6.1.74_iphoneos-arm.deb
-Size: 644
-MD5sum: 8d1e21ed16ff8167b90b131d4d5f60ac
-SHA1: c16b5756d911c889b89b36473c1127b2ea3e324a
-SHA256: e386259418ac6dbf1638921dfd0368e6322d92ca52d8cc2031d7a2346a5acaec
-Section: Tweaks
-Name: 2712 (trọn bộ)
-Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icons/com.wave12.suite.png
-Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.suite.html
-SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.suite.json
-Description: Tweak All in one trong repo
-
 Package: com.wave12.unlockcode
 Version: 6.0.7
 Architecture: iphoneos-arm
