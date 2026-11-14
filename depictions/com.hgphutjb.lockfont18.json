@@ -1,0 +1,57 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#30AADC",
+ "tabs": [
+  {
+   "tabname": "Chi tiết",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Tùy chỉnh font, màu và đồng hồ nhỏ cho màn hình khóa (kiểu iOS 16/18)",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Đổi được độ đậm (độ dày) font, màu, độ đậm nhạt của màu và cỡ chữ của đồng hồ màn hình khóa.\n- Có chế độ \"đồng hồ nhỏ\": gộp giờ và ngày chung một hàng, cùng cỡ chữ.\n- Giữ tay vào đồng hồ ở màn hình khóa để mở nhanh bảng chỉnh (xem trước ngay trên đồng hồ thật), hoặc chỉnh trong Cài đặt.\n- Chỉ đổi font/màu của đồng hồ gốc hệ thống, không vẽ đè lên toàn bộ màn hình khóa.\n\nCài đặt nằm ở **Cài đặt › LockFont18**.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tác giả",
+     "text": "PucPucPuc"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Phiên bản",
+     "text": "1.0.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Hỗ trợ",
+     "text": "iOS 12 · arm64 · rootful"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    }
+   ]
+  },
+  {
+   "tabname": "Thay đổi nhật ký",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "### 1.0.0\n- Bản đầu tiên: font/màu/độ đậm/cỡ chữ đồng hồ màn hình khóa, chế độ đồng hồ nhỏ, bảng chỉnh giữ tay + trang Cài đặt.\n- Có bộ tự bảo vệ: nếu SpringBoard khởi động lại liên tục ngay sau khi tweak chạy, tự hạ cấp dần (bớt tính năng) rồi tự phục hồi khi ổn định, để không góp phần vào vòng lặp safe mode.\n- Chưa kiểm tra trên máy thật.\n",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}
