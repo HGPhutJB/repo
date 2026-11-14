@@ -20,15 +20,15 @@ Description: App Store companion for jailbroken iOS devices
 Priority: optional
 
 Package: com.hgphutjb.lockfont18
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.hgphutjb.lockfont18_1.0.0_iphoneos-arm.deb
-Size: 60776
-MD5sum: 37f0aefb930d4c28fbc2235881ed0285
-SHA1: cb2f2563a64c206900de93da15e15d9a775e862a
-SHA256: 44d265da4b2e9b1e96047d2094a45ffb431f52445588e57cf14d7adc875283b8
+Filename: debs/com.hgphutjb.lockfont18_1.1.0_iphoneos-arm.deb
+Size: 68798
+MD5sum: 1e58e3e5b6f2875a67129218059bf894
+SHA1: 934a93845dffcf151bb3f8b0a2faf8110b6b63b6
+SHA256: 81047576c44898d4e38e303371fa176a2bb9f398e7d9bae8f5c4b8f64d268db6
 Section: Tweaks
 Name: LockFont18
 Author: PucPucPuc

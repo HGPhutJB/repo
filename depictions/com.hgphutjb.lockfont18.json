@@ -29,7 +29,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Phiên bản",
-     "text": "1.0.0"
+     "text": "1.1.0"
     },
     {
      "class": "DepictionTableTextView",
@@ -48,7 +48,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "### 1.0.0\n- Bản đầu tiên: font/màu/độ đậm/cỡ chữ đồng hồ màn hình khóa, chế độ đồng hồ nhỏ, bảng chỉnh giữ tay + trang Cài đặt.\n- Có bộ tự bảo vệ: nếu SpringBoard khởi động lại liên tục ngay sau khi tweak chạy, tự hạ cấp dần (bớt tính năng) rồi tự phục hồi khi ổn định, để không góp phần vào vòng lặp safe mode.\n- Chưa kiểm tra trên máy thật.\n",
+     "markdown": "### 1.1.0\n- Thêm \"chế độ chỉnh sửa\" giống màn hình khóa iOS 16/18 thật: giữ tay vào đồng hồ mở khung Hủy/Xong + khung chọn quanh đồng hồ, chạm vào khung mở bảng Phông chữ & Màu kiểu mới (3 ô mẫu độ đậm, dải màu, thanh trượt). \"Hủy\" ở màn hình chỉnh sửa khôi phục đúng mọi thứ về lúc bắt đầu, kể cả những gì đổi bên trong bảng con.\n- Thêm kiểu số \"Thủy tinh\" (chữ viền, hơi trong) bên cạnh \"Khối\" (chữ đặc) — chỉnh được cả ở bảng giữ tay lẫn trong Cài đặt.\n- Thêm tùy chọn phủ tối nhẹ phía sau đồng hồ cho dễ đọc chữ hơn trên ảnh nền sáng màu.\n- 2 biểu tượng \"lớp\" và \"màu nền\" trong chế độ chỉnh sửa hiện mới là trang trí cho đúng giao diện gốc, báo rõ \"chưa hỗ trợ\" khi chạm vào — sẽ làm chức năng thật ở bản sau; chưa làm nút \"+ Thêm tiện ích\" theo đúng yêu cầu.\n- Tự rà soát và sửa 1 lỗi rò view/bộ nhớ khi mở đi mở lại chế độ chỉnh sửa nhiều lần, và 1 lỗi tính sai cỡ chữ khi đang bật \"Thủy tinh\" mà kéo thanh trượt.\n- Chưa kiểm tra trên máy thật.\n\n### 1.0.0\n- Bản đầu tiên: font/màu/độ đậm/cỡ chữ đồng hồ màn hình khóa, chế độ đồng hồ nhỏ, bảng chỉnh giữ tay + trang Cài đặt.\n- Có bộ tự bảo vệ: nếu SpringBoard khởi động lại liên tục ngay sau khi tweak chạy, tự hạ cấp dần (bớt tính năng) rồi tự phục hồi khi ổn định, để không góp phần vào vòng lặp safe mode.\n",
      "useSpacing": true
     }
    ]
