@@ -19,26 +19,6 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.cokepokes.appstor
 Description: App Store companion for jailbroken iOS devices
 Priority: optional
 
-Package: com.hgphutjb.lockfont18
-Version: 1.2.1
-Architecture: iphoneos-arm
-Maintainer: PucPucPuc
-Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.hgphutjb.lockfont18_1.2.1_iphoneos-arm.deb
-Size: 76130
-MD5sum: c4b01486ed51fd3ad87d4fe59c4b23c3
-SHA1: 39d294b5f7fd90353429c8ef14986012ec4178b7
-SHA256: c28ec08e0f3adef9f003901b6dc8028122101efedde7ce722ba5cbe31ae9904c
-Section: 2712
-Name: LockFont18
-Author: PucPucPuc
-Icon: https://hgphutjb.github.io/repo/icons/com.hgphutjb.lockfont18.png
-Depiction: https://hgphutjb.github.io/repo/depictions/web/com.hgphutjb.lockfont18.html
-SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.hgphutjb.lockfont18.json
-Description: Tùy chỉnh font, màu và đồng hồ nhỏ cho màn hình khóa (kiểu iOS 16/18)
- Hoàn toàn độc lập, không đụng tới các tweak khác. Chưa kiểm tra trên máy thật.
-Suggests: preferenceloader
-
 Package: com.puc.claudemini
 Version: 0.5.1
 Architecture: iphoneos-arm

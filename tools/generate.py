@@ -35,7 +35,7 @@ def newest(files):
 SECTION_2712 = {
     "com.wave12.unlockcode", "com.wave12.unlockwave", "com.wave12.morph26", "com.wave12.liquidtab",
     "com.wave12.home26", "com.wave12.cc27", "com.wave12.box26", "com.wave12.wall26", "com.wave12.siri27",
-    "com.wave12.dynafake", "com.hgphutjb.lockfont18",
+    "com.wave12.dynafake",
 }
 SECTION_APPS = {"com.puc.claudemini", "com.verback.ytlite"}
 # mọi gói còn lại (vd AppStore++, MagSafe Animation) tự động rơi vào "Khác"
