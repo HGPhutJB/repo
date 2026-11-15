@@ -1,0 +1,56 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#2E7D7A",
+ "tabs": [
+  {
+   "tabname": "Chi tiết",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Always-On Display cho iOS 12 (AOD giả lập)",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**AlwaysDis** (tên gốc: LastLook) — tweak giả lập màn hình luôn bật (Always-On Display) kiểu Apple Watch/iPhone đời sau, cho máy không có phần cứng AOD thật.\n\n- Hiện giờ, pin, icon trạng thái (Wi-Fi, Bluetooth, chuông, khoá xoay, định vị...) khi màn hình tắt/khoá\n- Nhiều chế độ hiển thị (Normal, Ambient, bảo vệ lưu ảnh/burn-in...), tuỳ chỉnh cử chỉ chạm để bật/tắt\n- Cần cài thêm gói phụ thuộc **ws.hbang.common** nếu Sileo báo thiếu (thường tự thêm nguồn hoặc cài kèm khi chọn cài)\n\nPhần mềm do **AnthoPak** phát triển, chỉ được đổi tên và host lại ở đây cho tiện cài — không phải do PucPucPuc làm, không chỉnh sửa mã nguồn.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tác giả",
+     "text": "AnthoPak"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tên gốc",
+     "text": "LastLook"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Phiên bản",
+     "text": "3.4k"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Hỗ trợ",
+     "text": "iOS 12+ · arm64"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Phụ thuộc",
+     "text": "mobilesubstrate, ws.hbang.common (>= 1.15)"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    }
+   ]
+  }
+ ]
+}

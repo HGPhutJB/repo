@@ -275,3 +275,21 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.wall26.jso
 Description: Màn hình khóa vật thể che đồng hồ
  Còn vài lỗi, tách chưa thật mượt.
 Suggests: preferenceloader
+
+Package: xyz.cypwn.lastlook
+Version: 3.4k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: debs/xyz.cypwn.lastlook_3.4k_iphoneos-arm.deb
+Size: 401992
+MD5sum: be42cb74bc810d477246970a78286194
+SHA1: 7404b8f4adb1e00934bdde324837f1063578d68a
+SHA256: 03e5a4fec87176ddd8edf7faf4282b73bb4c06a507be157852d16102cb8c3ebf
+Section: Khác
+Name: AlwaysDis
+Author: AnthoPak
+Icon: https://hgphutjb.github.io/repo/icons/xyz.cypwn.lastlook.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/xyz.cypwn.lastlook.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/xyz.cypwn.lastlook.json
+Description: An AOD tweak that feels stock, with endless possibilities!

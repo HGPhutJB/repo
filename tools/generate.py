@@ -45,6 +45,9 @@ def section_for(pid):
     if pid in SECTION_APPS: return "Ứng dụng"
     return "Khác"
 
+# Đổi tên hiển thị cho vài gói của tác giả khác (không đụng tới file .deb gốc, chỉ ghi đè lúc tạo Packages/trang chủ)
+NAME_OVERRIDE = {"xyz.cypwn.lastlook": "AlwaysDis"}
+
 entries = []
 metas = []
 for f in newest([x for x in os.listdir("debs") if x.endswith(".deb")]):
@@ -62,6 +65,7 @@ for f in newest([x for x in os.listdir("debs") if x.endswith(".deb")]):
     ctrl["Depiction"] = BASE + "/depictions/web/" + pid + ".html"
     ctrl["SileoDepiction"] = BASE + "/depictions/" + pid + ".json"
     ctrl["Section"] = section_for(pid)          # ghi đè Section gốc để Sileo duyệt theo đúng 3 mục của repo này
+    if pid in NAME_OVERRIDE: ctrl["Name"] = NAME_OVERRIDE[pid]   # đổi tên hiển thị, không đụng control gốc trong .deb
     metas.append(dict(ctrl))
     entries.append("\n".join("%s: %s" % (k, ctrl[k]) for k in field_order(ctrl)))
 pk = ("\n\n".join(entries) + "\n").encode()
