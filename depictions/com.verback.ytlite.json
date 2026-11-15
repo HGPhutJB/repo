@@ -1,0 +1,51 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#FF5A8A",
+ "tabs": [
+  {
+   "tabname": "Chi tiết",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Xem YouTube nhẹ, không quảng cáo cho iOS 12+",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Opaline** — ứng dụng xem YouTube độc lập (không phải tweak chỉnh sửa app YouTube gốc), nhẹ, không quảng cáo, không theo dõi.\n\n- SponsorBlock (tự bỏ qua đoạn quảng cáo được cộng đồng đánh dấu)\n- Return YouTube Dislike (hiện lại số lượt dislike)\n- Phát tới 1080p, chạy nền, Picture in Picture, phụ đề\n\nSau khi cài, ứng dụng hiện ngoài màn hình chính. Phần mềm do **verback2308** phát triển, chỉ được đóng gói lại vào repo này để tiện cài đặt — không phải do PucPucPuc làm.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tác giả",
+     "text": "verback2308"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Phiên bản",
+     "text": "1.12.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Hỗ trợ",
+     "text": "iOS 12+ · arm64"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Trang gốc",
+     "text": "github.com/verback2308/ytlite"
+    },
+    {
+     "class": "DepictionSpacerView",
+     "spacing": 16
+    }
+   ]
+  }
+ ]
+}

@@ -10,7 +10,7 @@ Size: 11053666
 MD5sum: c4fe7f2b4954bc44d6ecf96ac624a09e
 SHA1: 3efa8bf8be2d95f56f96676a823167618a03b7ee
 SHA256: 672ac4bf96feb87e28e1b2bdcbeb0bd3a425dafe43098f801e4548bfc13c3e29
-Section: Utilities
+Section: Khác
 Name: AppStore++
 Author: CokePokes
 Icon: https://hgphutjb.github.io/repo/icons/com.cokepokes.appstoreplus.png
@@ -29,7 +29,7 @@ Size: 76130
 MD5sum: c4b01486ed51fd3ad87d4fe59c4b23c3
 SHA1: 39d294b5f7fd90353429c8ef14986012ec4178b7
 SHA256: c28ec08e0f3adef9f003901b6dc8028122101efedde7ce722ba5cbe31ae9904c
-Section: Tweaks
+Section: 2712
 Name: LockFont18
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.hgphutjb.lockfont18.png
@@ -49,7 +49,7 @@ Size: 1022562
 MD5sum: 04fa6a6b4dd8d8a4b94ce9d10a5a7e93
 SHA1: 77596b5cad148e9745ebe0328fcb385cb7349a9a
 SHA256: cebb4ef796a3aba28934958f80487b5ef8b89d867d91cce0cf93e0d86ff5f0e3
-Section: Utilities
+Section: Ứng dụng
 Name: ClaudeMini
 Author: puc <puc@users.noreply.github.com>
 Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
@@ -70,7 +70,7 @@ Size: 116444
 MD5sum: 98231bca6dea576871e1bd73b8dc4287
 SHA1: 8379f37e88d07335103a12f2d2712a66e29eb501
 SHA256: cca6d2df369429137b37c3dd57267832e0a40929707cf1921499518230c856ec
-Section: Tweaks
+Section: Khác
 Name: MagSafe Animation
 Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
 Icon: https://hgphutjb.github.io/repo/icons/com.tomaszpoliszuk.magsafecontroller.png
@@ -78,6 +78,29 @@ Depiction: https://hgphutjb.github.io/repo/depictions/web/com.tomaszpoliszuk.mag
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.tomaszpoliszuk.magsafecontroller.json
 Description: Animation sạc pin magsafe
 Tag: purpose::extension
+
+Package: com.verback.ytlite
+Version: 1.12.0
+Architecture: iphoneos-arm
+Maintainer: verback2308
+Depends: firmware (>= 12.0)
+Filename: debs/com.verback.ytlite_1.12.0_iphoneos-arm.deb
+Size: 6627478
+MD5sum: 827d8f3f022ff615f7915feb4c62af5c
+SHA1: 5ae44d8133eb8218b6fa53c3bc48b7894f5e64fc
+SHA256: 2ec52f11c431c8f131e1a9f47e1cafc7b59686f676572bee30723ea67cab5a49
+Section: Ứng dụng
+Name: Opaline
+Author: verback2308
+Icon: https://hgphutjb.github.io/repo/icons/com.verback.ytlite.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.verback.ytlite.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.verback.ytlite.json
+Description: Lightweight YouTube client for iOS 12+
+ SponsorBlock, Return YouTube Dislike, up to 1080p playback, background
+ audio, PiP, subtitles. No ads, no tracking, no dependencies.
+Priority: optional
+Installed-Size: 18888
+Homepage: https://github.com/verback2308/ytlite
 
 Package: com.wave12.box26
 Version: 6.0.2
@@ -89,7 +112,7 @@ Size: 230840
 MD5sum: a179ec6bcdf00535993d2c2d09bf5a9b
 SHA1: 34f4d676dd3a9b6c554526b0ea0415e2256c1b9b
 SHA256: 59ddfe20261088cb233d41bbd4bcef4e35af145ed1ee1f2a185f514558af4596
-Section: Tweaks
+Section: 2712
 Name: 26Box
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.box26.png
@@ -108,7 +131,7 @@ Size: 227048
 MD5sum: 77fa22ed529e385016dbe63fe3ca8060
 SHA1: af65dd883f314ea4e7176ded663c50ab8daa6518
 SHA256: f68d6f2bee2ff98406a41cc771a786f4569c8f68ff12358a8760e180f7a2c847
-Section: Tweaks
+Section: 2712
 Name: 27CC
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.cc27.png
@@ -127,7 +150,7 @@ Size: 273692
 MD5sum: 62cc9d1d27ee1bc609605f5bfeebf02e
 SHA1: 5cd76b0865b2e58bc2773746b991b4f071fe4b8f
 SHA256: f2e9483e9ecb4a3cf0cac3fe6f68982a09be04eff8ec20ede7756cbf156f57fe
-Section: Tweaks
+Section: 2712
 Name: DynaFake
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.dynafake.png
@@ -147,7 +170,7 @@ Size: 35804390
 MD5sum: 29fa1c9f3cdd691264412da1b002ab55
 SHA1: 4f15644217c8aee5f599cd04f24ac24a9d5a00fd
 SHA256: 1039b6142d082707ff66384ddcaae10f32a4f7978776dedac2a30fa3ec60c3f8
-Section: Tweaks
+Section: 2712
 Name: 26Home
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.home26.png
@@ -166,7 +189,7 @@ Size: 254300
 MD5sum: 1a4ac2051c4554d095d9cc4a50f19a64
 SHA1: 2ccc10a82fa8d10b1cf82c05650d7c21126c89c4
 SHA256: 08d37dbd12daaacf4155cc67ee0339d6f000aabb6eb2306d76a9719029913a1b
-Section: Tweaks
+Section: 2712
 Name: Liquid Tab
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.liquidtab.png
@@ -185,7 +208,7 @@ Size: 293772
 MD5sum: 7e2494a97443ffa3a7a0fde3813ac677
 SHA1: 76805bac09e465fea2b6b71725ff4114d577a444
 SHA256: 678b7980f9b9595d735312ba3a0478af28b0ee4338207d9ae2c6179069c673b9
-Section: Tweaks
+Section: 2712
 Name: 26Morph
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.morph26.png
@@ -205,7 +228,7 @@ Size: 247694
 MD5sum: 16f86ea485e5eae6fc66a2202772519a
 SHA1: da31ea8ba096a936378424a1042fa4bb8bed1e09
 SHA256: 81ad1f8cfa25d5d70dc1ebd33ccb44a81a6e9f5563bfe0bd936bb5d885159759
-Section: Tweaks
+Section: 2712
 Name: 27Siri
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.siri27.png
@@ -224,7 +247,7 @@ Size: 247570
 MD5sum: 9142103fa05d9fded215b870a76c5217
 SHA1: 9a2bc8dfbaaadc38a340441a1877ae0be9574312
 SHA256: 29fcfdb25282ab77c8b17de67aacd6218c959028ad881a73d10059b52fcd2574
-Section: Tweaks
+Section: 2712
 Name: UnlockCode
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockcode.png
@@ -244,7 +267,7 @@ Size: 271336
 MD5sum: 0918998202fa40b8df13a3c6063b7b31
 SHA1: d65e1e374a426d0874685b0461b3d421c3bc25f6
 SHA256: 9a8bd46fe6f97541a6479350a51f4ecce8b2000715dfe4af2c47b8a4f5b30308
-Section: Tweaks
+Section: 2712
 Name: OpenWave
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockwave.png
@@ -263,7 +286,7 @@ Size: 4479998
 MD5sum: 009306d3f63d039e6577a5ec21db0be1
 SHA1: 10620186c2873fe73bf7f72b9690c77e196cca14
 SHA256: bf4be5cdfacee049cee077ff949d1a7da347cc23642670698d46e5482653df7e
-Section: Tweaks
+Section: 2712
 Name: 26Wall
 Author: PucPucPuc
 Icon: https://hgphutjb.github.io/repo/icons/com.wave12.wall26.png

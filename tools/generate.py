@@ -28,6 +28,23 @@ def newest(files):
         if pkg not in best or ver(f) > ver(best[pkg]): best[pkg] = f
     return sorted(best.values())
 
+# Xếp lại gói vào 3 mục cho trang chủ và cho cả mục "Section" mà Sileo dùng để duyệt theo danh mục:
+#   - "2712"     : các tweak do chính PucPucPuc làm (bộ 2712 + mọi tweak độc lập khác cũng do PucPucPuc làm)
+#   - "Ứng dụng" : app độc lập (không phải tweak chỉnh hệ thống) — của PucPucPuc lẫn đóng gói lại từ tác giả khác
+#   - "Khác"     : tweak của tác giả khác, chỉ được host lại ở đây cho tiện cài, không chỉnh sửa gì
+SECTION_2712 = {
+    "com.wave12.unlockcode", "com.wave12.unlockwave", "com.wave12.morph26", "com.wave12.liquidtab",
+    "com.wave12.home26", "com.wave12.cc27", "com.wave12.box26", "com.wave12.wall26", "com.wave12.siri27",
+    "com.wave12.dynafake", "com.hgphutjb.lockfont18",
+}
+SECTION_APPS = {"com.puc.claudemini", "com.verback.ytlite"}
+# mọi gói còn lại (vd AppStore++, MagSafe Animation) tự động rơi vào "Khác"
+
+def section_for(pid):
+    if pid in SECTION_2712: return "2712"
+    if pid in SECTION_APPS: return "Ứng dụng"
+    return "Khác"
+
 entries = []
 metas = []
 for f in newest([x for x in os.listdir("debs") if x.endswith(".deb")]):
@@ -44,6 +61,7 @@ for f in newest([x for x in os.listdir("debs") if x.endswith(".deb")]):
     ctrl["Icon"] = BASE + ("/icons/" + pid + ".png" if os.path.exists("icons/" + pid + ".png") else "/icon.png")
     ctrl["Depiction"] = BASE + "/depictions/web/" + pid + ".html"
     ctrl["SileoDepiction"] = BASE + "/depictions/" + pid + ".json"
+    ctrl["Section"] = section_for(pid)          # ghi đè Section gốc để Sileo duyệt theo đúng 3 mục của repo này
     metas.append(dict(ctrl))
     entries.append("\n".join("%s: %s" % (k, ctrl[k]) for k in field_order(ctrl)))
 pk = ("\n\n".join(entries) + "\n").encode()
@@ -67,26 +85,38 @@ import html as _h
 def card(m):
     return ('<a class="c" href="depictions/web/%s.html"><img src="%s" alt=""><span><b>%s</b><i>v%s</i><em>%s</em></span></a>'
             % (m["Package"], _h.escape(m["Icon"].replace(BASE + "/", "")), _h.escape(m.get("Name", m["Package"])), _h.escape(m["Version"]), _h.escape(m.get("Description", "").split("\n")[0])))
-order = ["com.wave12.suite"]
-rest = sorted([m for m in metas if m["Package"] not in order and m["Package"] != "com.puc.claudemini"], key=lambda m: m.get("Name", "").lower())
-apps = [m for m in metas if m["Package"] == "com.puc.claudemini"]
-suite = [m for m in metas if m["Package"] == "com.wave12.suite"]
+
+SECTIONS = [
+    ("2712", "Bộ tweak \"2712\" — giao diện kiểu iOS 26/27 cho iOS 12, do PucPucPuc tự làm. Cài riêng từng cái được."),
+    ("Ứng dụng", "App độc lập, không chỉnh sửa hệ thống."),
+    ("Khác", "Tweak của tác giả khác, chỉ host lại ở đây cho tiện cài — không phải do PucPucPuc làm."),
+]
+groups = {name: sorted([m for m in metas if m["Section"] == name], key=lambda m: m.get("Name", "").lower()) for name, _ in SECTIONS}
+
+section_html = ""
+for name, desc in SECTIONS:
+    items = groups[name]
+    if not items: continue
+    section_html += '<h2>%s <span class="cnt">%d</span></h2><p class="sd">%s</p>' % (_h.escape(name), len(items), _h.escape(desc))
+    section_html += "".join(card(m) for m in items)
+
 page = """<!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Repo PucPucPuc</title>
-<meta name="description" content="Nguồn tweak cho iOS 12 (rootful): các tweak giao diện kiểu iOS 26/27, cài riêng từng cái.">
+<meta name="description" content="Nguồn tweak cho iOS 12 (rootful): bộ tweak 2712 kiểu iOS 26/27, cài riêng từng cái, cộng thêm vài ứng dụng.">
 <style>:root{--bg:#fff;--fg:#111;--mut:#6b6b70;--card:#f2f2f7;--ac:#34c759;--ln:#e5e5ea}@media(prefers-color-scheme:dark){:root{--bg:#000;--fg:#f2f2f7;--mut:#98989d;--card:#1c1c1e;--ln:#2c2c2e}}
 *{box-sizing:border-box}body{font:16px/1.5 -apple-system,Helvetica,sans-serif;margin:0;padding:24px 16px 48px;background:var(--bg);color:var(--fg);max-width:600px;margin-inline:auto}
 header{display:flex;gap:14px;align-items:center}header img{width:72px;height:72px;border-radius:16px}h1{margin:0;font-size:26px}p{color:var(--mut);margin:.2em 0}
-h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:28px 0 8px}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);margin:30px 0 2px;display:flex;align-items:center;gap:8px;border-top:1px solid var(--ln);padding-top:18px}
+h2 .cnt{background:var(--card);color:var(--mut);border-radius:999px;padding:.1em .6em;font-size:12px;letter-spacing:0}
+p.sd{color:var(--mut);font-size:13px;margin:2px 0 10px}
 code{background:var(--card);padding:.6em .8em;border-radius:10px;display:block;word-break:break-all;color:var(--fg);font-size:14px;margin-top:8px}
 .b{display:inline-block;margin:8px 8px 0 0;padding:.55em 1em;border-radius:999px;background:var(--ac);color:#fff;text-decoration:none;font-weight:600;font-size:15px}
 .c{display:flex;gap:12px;align-items:center;padding:10px 12px;margin-bottom:8px;background:var(--card);border-radius:14px;color:var(--fg);text-decoration:none}
-.c img{width:48px;height:48px;border-radius:11px;flex:none}.c span{display:block;min-width:0}.c b{display:block}.c i{font-style:normal;color:var(--mut);font-size:13px;margin-left:0}.c em{display:block;font-style:normal;color:var(--mut);font-size:14px}
+.c img{width:48px;height:48px;border-radius:11px;flex:none}.c span{display:block;min-width:0}.c b{display:block}.c i{font-style:normal;color:var(--mut);font-size:13px;margin-left:0}.c em{display:block;font-style:normal;color:var(--mut);font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 footer{margin-top:28px;color:var(--mut);font-size:13px}</style></head><body>
 <header><img src="icon.png" alt=""><div><h1>Repo PucPucPuc</h1><p>Nguồn tweak cho iOS 12 (rootful)</p></div></header>
-<h2>Thêm nguồn</h2><code>https://hgphutjb.github.io/repo/</code>
+<p style="margin-top:12px">Thêm nguồn</p><code>https://hgphutjb.github.io/repo/</code>
 <a class="b" href="sileo://source/https://hgphutjb.github.io/repo/">Thêm vào Sileo</a><a class="b" href="zbra://sources/add/https://hgphutjb.github.io/repo/">Thêm vào Zebra</a><a class="b" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://hgphutjb.github.io/repo/">Thêm vào Cydia</a>
-<h2>Từng tweak (cài riêng được)</h2>""" + "".join(card(m) for m in rest) + """
-<h2>Ứng dụng</h2>""" + "".join(card(m) for m in apps) + """
-<footer>Cập nhật """ + time.strftime("%d/%m/%Y", time.gmtime()) + """. Các tweak chưa được kiểm tra hết trên máy thật, hãy sao lưu trước khi cài.</footer></body></html>"""
+""" + section_html + """
+<footer>Cập nhật """ + time.strftime("%d/%m/%Y", time.gmtime()) + """. Các tweak/app chưa được kiểm tra hết trên máy thật, hãy sao lưu trước khi cài.</footer></body></html>"""
 open("index.html", "w", encoding="utf-8").write(page)
-print("packages:", len(entries))
+print("packages:", len(entries), "| sections:", {k: len(v) for k, v in groups.items()})
