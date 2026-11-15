@@ -102,15 +102,15 @@ Description: Hộp thoại thông báo iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.cc27
-Version: 6.0.5
+Version: 6.0.6
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.cc27_6.0.5_iphoneos-arm.deb
-Size: 227048
-MD5sum: 77fa22ed529e385016dbe63fe3ca8060
-SHA1: af65dd883f314ea4e7176ded663c50ab8daa6518
-SHA256: f68d6f2bee2ff98406a41cc771a786f4569c8f68ff12358a8760e180f7a2c847
+Filename: debs/com.wave12.cc27_6.0.6_iphoneos-arm.deb
+Size: 255828
+MD5sum: 8fa3f4031609837ace3aa06a4d34ba2b
+SHA1: 6cb0e724ddc31e2adaa366c765832db502ac682a
+SHA256: c789933e70515c2ad52cf9fd1ea341a86e9f19f53ad131fa7d5c7e2e998c8d53
 Section: 2712
 Name: 27CC
 Author: PucPucPuc
