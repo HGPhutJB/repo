@@ -20,22 +20,22 @@ Description: App Store companion for jailbroken iOS devices
 Priority: optional
 
 Package: com.puc.claudemini
-Version: 0.5.1
+Version: 0.7.0
 Architecture: iphoneos-arm
 Maintainer: puc <puc@users.noreply.github.com>
 Depends: firmware (>= 12.0)
-Filename: debs/com.puc.claudemini_0.5.1_iphoneos-arm.deb
-Size: 1022562
-MD5sum: 04fa6a6b4dd8d8a4b94ce9d10a5a7e93
-SHA1: 77596b5cad148e9745ebe0328fcb385cb7349a9a
-SHA256: cebb4ef796a3aba28934958f80487b5ef8b89d867d91cce0cf93e0d86ff5f0e3
+Filename: debs/com.puc.claudemini_0.7.0_iphoneos-arm.deb
+Size: 1874684
+MD5sum: 2bb36827a352260ab81b63103e16b439
+SHA1: 3b702b8916817683e2573ddd33ec7a44a5d4d7cd
+SHA256: 192dd8c8c9c7cf8769833b494a815946ec6b3170ed606fe8a9a27d18ccc202e5
 Section: Ứng dụng
 Name: ClaudeMini
 Author: puc <puc@users.noreply.github.com>
 Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
 Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
-Description: The Best Gemini client for iOS 12 or Later
+Description: Lightweight Gemini and Claude AI chat client for iOS 12+ (rootful) with skins, dark mode, chat wallpapers and alternate app icons. Bring your own API key.
 
 Package: com.tomaszpoliszuk.magsafecontroller
 Version: 1.1.4
