@@ -121,15 +121,15 @@ Description: Control Center viền glass iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
-Version: 6.0.26
+Version: 6.0.27
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.dynafake_6.0.26_iphoneos-arm.deb
-Size: 273692
-MD5sum: 62cc9d1d27ee1bc609605f5bfeebf02e
-SHA1: 5cd76b0865b2e58bc2773746b991b4f071fe4b8f
-SHA256: f2e9483e9ecb4a3cf0cac3fe6f68982a09be04eff8ec20ede7756cbf156f57fe
+Filename: debs/com.wave12.dynafake_6.0.27_iphoneos-arm.deb
+Size: 277566
+MD5sum: e749aa422818dd962b286344cda1ea56
+SHA1: d80c2fafd9215b1bfc1c82c11851d8eb1d7c881c
+SHA256: 94f1e1fd1e7d535d86d842df7afcfb23ba83a91a3585265219eb4722d801ff70
 Section: 2712
 Name: DynaFake
 Author: PucPucPuc
