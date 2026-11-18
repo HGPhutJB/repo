@@ -121,15 +121,15 @@ Description: Control Center viền glass iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.dynafake
-Version: 6.0.27
+Version: 6.0.28
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.dynafake_6.0.27_iphoneos-arm.deb
-Size: 277566
-MD5sum: e749aa422818dd962b286344cda1ea56
-SHA1: d80c2fafd9215b1bfc1c82c11851d8eb1d7c881c
-SHA256: 94f1e1fd1e7d535d86d842df7afcfb23ba83a91a3585265219eb4722d801ff70
+Filename: debs/com.wave12.dynafake_6.0.28_iphoneos-arm.deb
+Size: 279868
+MD5sum: c8c90f69ea4ee358d5403f40702e5864
+SHA1: 339637f36dd246064c64e173626daaa9c893e8fe
+SHA256: 89895c21100f690300f4b085fde1a4b5012879e3233966637e96c3db1d63b175
 Section: 2712
 Name: DynaFake
 Author: PucPucPuc
@@ -179,15 +179,15 @@ Description: Tab bar iOS 26
 Suggests: preferenceloader
 
 Package: com.wave12.morph26
-Version: 6.0.37
+Version: 6.0.38
 Architecture: iphoneos-arm
 Maintainer: PucPucPuc
 Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
-Filename: debs/com.wave12.morph26_6.0.37_iphoneos-arm.deb
-Size: 293772
-MD5sum: 7e2494a97443ffa3a7a0fde3813ac677
-SHA1: 76805bac09e465fea2b6b71725ff4114d577a444
-SHA256: 678b7980f9b9595d735312ba3a0478af28b0ee4338207d9ae2c6179069c673b9
+Filename: debs/com.wave12.morph26_6.0.38_iphoneos-arm.deb
+Size: 297980
+MD5sum: dc4da0ef607a85c5c3b8ea386509b6f7
+SHA1: e1af4b50cb878b9a83d845d4863b80428a03b39f
+SHA256: eedf0bfff297bfd046157630eef2ba62ef48f7b53206afe2f133ad5b82cff40a
 Section: 2712
 Name: 26Morph
 Author: PucPucPuc
