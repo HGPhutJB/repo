@@ -1,0 +1,295 @@
+Package: com.cokepokes.appstoreplus
+Version: 2.3.15-7
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 12.0)
+Conflicts: 
+Replaces: com.cokepokes.asppapp
+Filename: debs/com.cokepokes.appstoreplus_2.3.15-7_iphoneos-arm.deb
+Size: 11053666
+MD5sum: c4fe7f2b4954bc44d6ecf96ac624a09e
+SHA1: 3efa8bf8be2d95f56f96676a823167618a03b7ee
+SHA256: 672ac4bf96feb87e28e1b2bdcbeb0bd3a425dafe43098f801e4548bfc13c3e29
+Section: Khác
+Name: AppStore++
+Author: CokePokes
+Icon: https://hgphutjb.github.io/repo/icons/com.cokepokes.appstoreplus.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.cokepokes.appstoreplus.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.cokepokes.appstoreplus.json
+Description: App Store companion for jailbroken iOS devices
+Priority: optional
+
+Package: com.puc.claudemini
+Version: 0.7.2
+Architecture: iphoneos-arm
+Maintainer: puc <puc@users.noreply.github.com>
+Depends: firmware (>= 12.0)
+Filename: debs/com.puc.claudemini_0.7.2_iphoneos-arm.deb
+Size: 1911092
+MD5sum: 064c2074862632f3a5336e400886545b
+SHA1: 50dca48fe03f05531423ff06e19cd6366a72a8d0
+SHA256: 025bfe2414cd4ee6330b214d941d6df705853b9a805fe299c8ccaf7c6ed1787c
+Section: Ứng dụng
+Name: ClaudeMini
+Author: puc <puc@users.noreply.github.com>
+Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
+Description: Lightweight Gemini and Claude AI chat client for iOS 12+ (rootful) with skins, dark mode, chat wallpapers and alternate app icons. Bring your own API key.
+
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: debs/com.tomaszpoliszuk.magsafecontroller_1.1.4_iphoneos-arm.deb
+Size: 116444
+MD5sum: 98231bca6dea576871e1bd73b8dc4287
+SHA1: 8379f37e88d07335103a12f2d2712a66e29eb501
+SHA256: cca6d2df369429137b37c3dd57267832e0a40929707cf1921499518230c856ec
+Section: Khác
+Name: MagSafe Animation
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Icon: https://hgphutjb.github.io/repo/icons/com.tomaszpoliszuk.magsafecontroller.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.tomaszpoliszuk.magsafecontroller.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.tomaszpoliszuk.magsafecontroller.json
+Description: Animation sạc pin magsafe
+Tag: purpose::extension
+
+Package: com.verback.ytlite
+Version: 1.12.0
+Architecture: iphoneos-arm
+Maintainer: verback2308
+Depends: firmware (>= 12.0)
+Filename: debs/com.verback.ytlite_1.12.0_iphoneos-arm.deb
+Size: 6627478
+MD5sum: 827d8f3f022ff615f7915feb4c62af5c
+SHA1: 5ae44d8133eb8218b6fa53c3bc48b7894f5e64fc
+SHA256: 2ec52f11c431c8f131e1a9f47e1cafc7b59686f676572bee30723ea67cab5a49
+Section: Ứng dụng
+Name: Opaline
+Author: verback2308
+Icon: https://hgphutjb.github.io/repo/icons/com.verback.ytlite.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.verback.ytlite.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.verback.ytlite.json
+Description: Lightweight YouTube client for iOS 12+
+ SponsorBlock, Return YouTube Dislike, up to 1080p playback, background
+ audio, PiP, subtitles. No ads, no tracking, no dependencies.
+Priority: optional
+Installed-Size: 18888
+Homepage: https://github.com/verback2308/ytlite
+
+Package: com.wave12.box26
+Version: 6.0.2
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.box26_6.0.2_iphoneos-arm.deb
+Size: 230840
+MD5sum: a179ec6bcdf00535993d2c2d09bf5a9b
+SHA1: 34f4d676dd3a9b6c554526b0ea0415e2256c1b9b
+SHA256: 59ddfe20261088cb233d41bbd4bcef4e35af145ed1ee1f2a185f514558af4596
+Section: 2712
+Name: 26Box
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.box26.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.box26.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.box26.json
+Description: Hộp thoại thông báo iOS 26
+Suggests: preferenceloader
+
+Package: com.wave12.cc27
+Version: 6.0.6
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.cc27_6.0.6_iphoneos-arm.deb
+Size: 255828
+MD5sum: 8fa3f4031609837ace3aa06a4d34ba2b
+SHA1: 6cb0e724ddc31e2adaa366c765832db502ac682a
+SHA256: c789933e70515c2ad52cf9fd1ea341a86e9f19f53ad131fa7d5c7e2e998c8d53
+Section: 2712
+Name: 27CC
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.cc27.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.cc27.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.cc27.json
+Description: Control Center viền glass iOS 26
+Suggests: preferenceloader
+
+Package: com.wave12.dynafake
+Version: 6.0.29
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.dynafake_6.0.29_iphoneos-arm.deb
+Size: 279864
+MD5sum: 324a5a20f70d45bd743384302c95efe2
+SHA1: c7aecf19930a711bb595152cd3f0fcde0c254bb1
+SHA256: 2d7d75576d37a95c54d8a8b3f7263ebc7e282fb60e0c81abcd32f1e2271e329b
+Section: 2712
+Name: DynaFake
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.dynafake.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.dynafake.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.dynafake.json
+Description: Dynamic Island ảo
+ Hiện hẹn giờ, nhạc, cuộc gọi, âm lượng, pin... trên đảo. Có hiệu ứng Face ID khi mở khóa.
+Suggests: preferenceloader
+
+Package: com.wave12.home26
+Version: 6.0.4
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.home26_6.0.4_iphoneos-arm.deb
+Size: 35804390
+MD5sum: 29fa1c9f3cdd691264412da1b002ab55
+SHA1: 4f15644217c8aee5f599cd04f24ac24a9d5a00fd
+SHA256: 1039b6142d082707ff66384ddcaae10f32a4f7978776dedac2a30fa3ec60c3f8
+Section: 2712
+Name: 26Home
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.home26.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.home26.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.home26.json
+Description: Tùy chỉnh màn hình chính giống iOS 26/27
+Suggests: preferenceloader
+
+Package: com.wave12.liquidtab
+Version: 6.0.2
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.liquidtab_6.0.2_iphoneos-arm.deb
+Size: 254300
+MD5sum: 1a4ac2051c4554d095d9cc4a50f19a64
+SHA1: 2ccc10a82fa8d10b1cf82c05650d7c21126c89c4
+SHA256: 08d37dbd12daaacf4155cc67ee0339d6f000aabb6eb2306d76a9719029913a1b
+Section: 2712
+Name: Liquid Tab
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.liquidtab.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.liquidtab.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.liquidtab.json
+Description: Tab bar iOS 26
+Suggests: preferenceloader
+
+Package: com.wave12.morph26
+Version: 6.0.40
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.morph26_6.0.40_iphoneos-arm.deb
+Size: 298460
+MD5sum: 69a0d1c6a64db73126754716ca9afba1
+SHA1: 1a3ff0bde91562eca08b3e6b80d9896db24ff642
+SHA256: 29813028e49d98a0154486ea3a92a76add7c67319b1221895860d82f239f4db7
+Section: 2712
+Name: 26Morph
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.morph26.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.morph26.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.morph26.json
+Description: Animation đóng mở ứng dụng của iOS 26/27
+ Mã nguồn port từ 2 tweak 26Ani và iOS 27 animation.
+Suggests: preferenceloader
+
+Package: com.wave12.siri27
+Version: 1.5.0
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.siri27_1.5.0_iphoneos-arm.deb
+Size: 247694
+MD5sum: 16f86ea485e5eae6fc66a2202772519a
+SHA1: da31ea8ba096a936378424a1042fa4bb8bed1e09
+SHA256: 81ad1f8cfa25d5d70dc1ebd33ccb44a81a6e9f5563bfe0bd936bb5d885159759
+Section: 2712
+Name: 27Siri
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.siri27.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.siri27.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.siri27.json
+Description: iOS 27 Siri AI cho iOS 12
+Suggests: preferenceloader
+
+Package: com.wave12.unlockcode
+Version: 6.0.7
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.unlockcode_6.0.7_iphoneos-arm.deb
+Size: 247570
+MD5sum: 9142103fa05d9fded215b870a76c5217
+SHA1: 9a2bc8dfbaaadc38a340441a1877ae0be9574312
+SHA256: 29fcfdb25282ab77c8b17de67aacd6218c959028ad881a73d10059b52fcd2574
+Section: 2712
+Name: UnlockCode
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockcode.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockcode.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockcode.json
+Description: Animation nảy mật khẩu của iOS 26
+ Mã nguồn của Blutek.
+Suggests: preferenceloader
+
+Package: com.wave12.unlockwave
+Version: 6.0.3
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.unlockwave_6.0.3_iphoneos-arm.deb
+Size: 271336
+MD5sum: 0918998202fa40b8df13a3c6063b7b31
+SHA1: d65e1e374a426d0874685b0461b3d421c3bc25f6
+SHA256: 9a8bd46fe6f97541a6479350a51f4ecce8b2000715dfe4af2c47b8a4f5b30308
+Section: 2712
+Name: OpenWave
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.unlockwave.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.unlockwave.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.unlockwave.json
+Description: Animation mở khóa iOS 26, giống 26Unlock
+Suggests: preferenceloader
+
+Package: com.wave12.wall26
+Version: 1.0.7
+Architecture: iphoneos-arm
+Maintainer: PucPucPuc
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Filename: debs/com.wave12.wall26_1.0.7_iphoneos-arm.deb
+Size: 4479998
+MD5sum: 009306d3f63d039e6577a5ec21db0be1
+SHA1: 10620186c2873fe73bf7f72b9690c77e196cca14
+SHA256: bf4be5cdfacee049cee077ff949d1a7da347cc23642670698d46e5482653df7e
+Section: 2712
+Name: 26Wall
+Author: PucPucPuc
+Icon: https://hgphutjb.github.io/repo/icons/com.wave12.wall26.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.wave12.wall26.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.wave12.wall26.json
+Description: Màn hình khóa vật thể che đồng hồ
+ Còn vài lỗi, tách chưa thật mượt.
+Suggests: preferenceloader
+
+Package: xyz.cypwn.lastlook
+Version: 3.4k
+Architecture: iphoneos-arm
+Maintainer: CyPwn
+Depends: mobilesubstrate, ws.hbang.common (>= 1.15), firmware (>= 12.0)
+Filename: debs/xyz.cypwn.lastlook_3.4k_iphoneos-arm.deb
+Size: 401992
+MD5sum: be42cb74bc810d477246970a78286194
+SHA1: 7404b8f4adb1e00934bdde324837f1063578d68a
+SHA256: 03e5a4fec87176ddd8edf7faf4282b73bb4c06a507be157852d16102cb8c3ebf
+Section: Khác
+Name: AlwaysDis
+Author: AnthoPak
+Icon: https://hgphutjb.github.io/repo/icons/xyz.cypwn.lastlook.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/xyz.cypwn.lastlook.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/xyz.cypwn.lastlook.json
+Description: An AOD tweak that feels stock, with endless possibilities!
