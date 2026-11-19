@@ -1,21 +1,3 @@
-Package: com.puc.claudemini
-Version: 0.7.2
-Architecture: iphoneos-arm
-Maintainer: puc <puc@users.noreply.github.com>
-Depends: firmware (>= 12.0)
-Filename: debs/76d98376-com.puc.claudemini_0.7.2_iphoneos-arm.deb
-Size: 1911092
-MD5sum: 064c2074862632f3a5336e400886545b
-SHA1: 50dca48fe03f05531423ff06e19cd6366a72a8d0
-SHA256: 025bfe2414cd4ee6330b214d941d6df705853b9a805fe299c8ccaf7c6ed1787c
-Section: Ứng dụng
-Name: ClaudeMini
-Author: puc <puc@users.noreply.github.com>
-Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
-Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
-SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
-Description: Lightweight Gemini and Claude AI chat client for iOS 12+ (rootful) with skins, dark mode, chat wallpapers and alternate app icons. Bring your own API key.
-
 Package: com.cokepokes.appstoreplus
 Version: 2.3.15-7
 Architecture: iphoneos-arm
@@ -36,6 +18,24 @@ Depiction: https://hgphutjb.github.io/repo/depictions/web/com.cokepokes.appstore
 SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.cokepokes.appstoreplus.json
 Description: App Store companion for jailbroken iOS devices
 Priority: optional
+
+Package: com.puc.claudemini
+Version: 0.7.2
+Architecture: iphoneos-arm
+Maintainer: puc <puc@users.noreply.github.com>
+Depends: firmware (>= 12.0)
+Filename: debs/com.puc.claudemini_0.7.2_iphoneos-arm.deb
+Size: 1911092
+MD5sum: 064c2074862632f3a5336e400886545b
+SHA1: 50dca48fe03f05531423ff06e19cd6366a72a8d0
+SHA256: 025bfe2414cd4ee6330b214d941d6df705853b9a805fe299c8ccaf7c6ed1787c
+Section: Ứng dụng
+Name: ClaudeMini
+Author: puc <puc@users.noreply.github.com>
+Icon: https://hgphutjb.github.io/repo/icons/com.puc.claudemini.png
+Depiction: https://hgphutjb.github.io/repo/depictions/web/com.puc.claudemini.html
+SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.json
+Description: Lightweight Gemini and Claude AI chat client for iOS 12+ (rootful) with skins, dark mode, chat wallpapers and alternate app icons. Bring your own API key.
 
 Package: com.tomaszpoliszuk.magsafecontroller
 Version: 1.1.4
