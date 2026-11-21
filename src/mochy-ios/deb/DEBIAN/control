@@ -1,0 +1,10 @@
+Package: com.puc.mochyios
+Name: Mochy iOS
+Version: @VERSION@
+Architecture: iphoneos-arm
+Description: Music player for iOS 12+ (rootful), a Swift port of Mochy Music. Search and stream from YouTube Music, background playback and lock screen controls.
+Depends: firmware (>= 12.2)
+Section: Utilities
+Maintainer: puc <puc@users.noreply.github.com>
+Author: puc <puc@users.noreply.github.com>
+Icon: file:///Applications/MochyiOS.app/AppIcon60x60@2x.png

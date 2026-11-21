@@ -1,0 +1,87 @@
+name: Build Mochy iOS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'src/mochy-ios/**'
+      - '.github/workflows/mochy-ios.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mochy-ios
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Toolchain info
+        run: |
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+          swift --version
+
+      - name: Install ldid and dpkg
+        run: brew install ldid dpkg
+
+      - name: Build .deb and .ipa
+        working-directory: src/mochy-ios
+        run: |
+          set -o pipefail
+          chmod +x build.sh
+          ./build.sh 2>&1 | tee build.log
+
+      - name: Upload build output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: MochyiOS-build
+          path: |
+            src/mochy-ios/dist/*
+            src/mochy-ios/build.log
+          if-no-files-found: warn
+
+      - name: Publish .deb and .ipa into this repo
+        if: success()
+        run: |
+          set -euo pipefail
+          VERSION="$(tr -d '[:space:]' < src/mochy-ios/VERSION)"
+          git config user.name "Puc"
+          git config user.email "HGPhutJB@users.noreply.github.com"
+          rm -f debs/com.puc.mochyios_*.deb
+          cp src/mochy-ios/dist/com.puc.mochyios_*.deb debs/
+          mkdir -p ipa
+          rm -f ipa/MochyiOS_*.ipa
+          cp src/mochy-ios/dist/MochyiOS_*.ipa ipa/
+          python3 tools/generate.py
+          git add debs ipa Packages Packages.gz Packages.bz2 Release index.html
+          git diff --cached --quiet || git commit -m "Mochy iOS ${VERSION}: build tự động từ src/mochy-ios"
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Save build log to branch ci-logs
+        if: always()
+        run: |
+          LOG=src/mochy-ios/build.log
+          [ -f "$LOG" ] || echo "no build.log (the build did not start)" > "$LOG"
+          cp "$LOG" /tmp/mochyios-build.log
+          git config user.name "Puc"
+          git config user.email "HGPhutJB@users.noreply.github.com"
+          git fetch --depth=1 origin ci-logs || true
+          if git rev-parse --verify -q origin/ci-logs >/dev/null; then
+            git checkout -f -B ci-logs origin/ci-logs
+          else
+            git checkout --orphan ci-logs
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          cp /tmp/mochyios-build.log mochyios-build.log
+          git add mochyios-build.log
+          git commit -m "Mochy iOS build log, run ${GITHUB_RUN_ID}, job ${{ job.status }}" || true
+          git push origin ci-logs
