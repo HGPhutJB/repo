@@ -37,7 +37,7 @@ SECTION_2712 = {
     "com.wave12.home26", "com.wave12.cc27", "com.wave12.box26", "com.wave12.wall26", "com.wave12.siri27",
     "com.wave12.dynafake",
 }
-SECTION_APPS = {"com.puc.claudemini", "com.verback.ytlite"}
+SECTION_APPS = {"com.puc.claudemini", "com.verback.ytlite", "com.puc.mochyios"}
 # mọi gói còn lại (vd AppStore++, MagSafe Animation) tự động rơi vào "Khác"
 
 def section_for(pid):

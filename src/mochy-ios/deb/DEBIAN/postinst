@@ -1,0 +1,5 @@
+#!/bin/sh
+# Register the app with SpringBoard so the icon appears on the Home Screen.
+chmod 755 /Applications/MochyiOS.app/MochyiOS 2>/dev/null
+uicache >/dev/null 2>&1 || true
+exit 0
