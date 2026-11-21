@@ -1,0 +1,77 @@
+SDK: /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk
+swift-driver version: 1.148.6 <unknown>:0: warning: using sysroot for 'iPhoneOS' but targeting 'MacOSX'
+Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+Target: arm64-apple-macosx26.0
+==> Compiling Swift (arm64, iOS 12.2+)
+==> Binary info
+build/pkg/Applications/MochyiOS.app/MochyiOS: Mach-O 64-bit executable arm64
+build/pkg/Applications/MochyiOS.app/MochyiOS:
+Load command 9
+      cmd LC_BUILD_VERSION
+  cmdsize 32
+ platform IOS
+    minos 12.2
+      sdk 26.5
+   ntools 1
+     tool LD
+  version 1267.0
+build/pkg/Applications/MochyiOS.app/MochyiOS:
+	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1356.0.0)
+	/System/Library/Frameworks/AVFoundation.framework/AVFoundation (compatibility version 1.0.0, current version 2.0.0)
+	/System/Library/Frameworks/CFNetwork.framework/CFNetwork (compatibility version 1.0.0, current version 3860.255.12)
+	/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation (compatibility version 150.0.0, current version 5026.5.4)
+	/System/Library/Frameworks/Foundation.framework/Foundation (compatibility version 300.0.0, current version 5026.5.4)
+	/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer (compatibility version 1.0.0, current version 1.0.0)
+	/System/Library/Frameworks/UIKit.framework/UIKit (compatibility version 1.0.0, current version 9126.5.5)
+	/usr/lib/libc++.1.dylib (compatibility version 1.0.0, current version 2100.43.0)
+	/usr/lib/libobjc.A.dylib (compatibility version 1.0.0, current version 228.0.0)
+	/usr/lib/swift/libswiftAVFoundation.dylib (compatibility version 1.0.0, current version 2420.7.1, weak)
+	/usr/lib/swift/libswiftCore.dylib (compatibility version 0.0.0, current version 0.0.0)
+	/usr/lib/swift/libswiftCoreAudio.dylib (compatibility version 1.0.0, current version 411.255.0, weak)
+	/usr/lib/swift/libswiftCoreFoundation.dylib (compatibility version 1.0.0, current version 120.100.0, weak)
+	/usr/lib/swift/libswiftCoreImage.dylib (compatibility version 1.0.0, current version 2.2.0, weak)
+	/usr/lib/swift/libswiftCoreMIDI.dylib (compatibility version 1.0.0, current version 6.0.0, weak)
+	/usr/lib/swift/libswiftCoreMedia.dylib (compatibility version 1.0.0, current version 3320.8.1)
+	/usr/lib/swift/libswiftDarwin.dylib (compatibility version 1.0.0, current version 377.120.8, weak)
+	/usr/lib/swift/libswiftDispatch.dylib (compatibility version 1.0.0, current version 1542.100.32)
+	/usr/lib/swift/libswiftMetal.dylib (compatibility version 1.0.0, current version 373.2.0, weak)
+	/usr/lib/swift/libswiftOSLog.dylib (compatibility version 1.0.0, current version 10.0.0, weak)
+	/usr/lib/swift/libswiftObjectiveC.dylib (compatibility version 1.0.0, current version 951.7.0, weak)
+	/usr/lib/swift/libswiftQuartzCore.dylib (compatibility version 1.0.0, current version 5.0.0, weak)
+	/usr/lib/swift/libswiftSpatial.dylib (compatibility version 1.0.0, current version 1.0.0, weak)
+	/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib (compatibility version 1.0.0, current version 879.5.1, weak)
+	/usr/lib/swift/libswiftXPC.dylib (compatibility version 1.0.0, current version 128.120.2, weak)
+	/usr/lib/swift/libswiftos.dylib (compatibility version 1.0.0, current version 1082.0.0, weak)
+	/usr/lib/swift/libswiftsimd.dylib (compatibility version 1.0.0, current version 23.0.0, weak)
+	/usr/lib/swift/libswiftFoundation.dylib (compatibility version 1.0.0, current version 1.0.0)
+	/usr/lib/swift/libswiftCoreGraphics.dylib (compatibility version 1.0.0, current version 120.100.0)
+          cmd LC_RPATH
+      cmdsize 32
+         path /usr/lib/swift (offset 12)
+==> Assembling bundle
+==> Compiling launch screen
+LaunchScreen.storyboardc OK
+==> Preparing the .ipa payload (before the jailbreak entitlements are applied)
+==> Pseudo-signing the .deb binary with ldid (jailbreak entitlements)
+==> Packaging .deb
+dpkg-deb: building package 'com.puc.mochyios' in 'dist/com.puc.mochyios_0.1.0_iphoneos-arm.deb'.
+==> Packaging .ipa
+==> Done
+total 680
+-rw-r--r--  1 runner  staff  168580 Nov 21 04:50 com.puc.mochyios_0.1.0_iphoneos-arm.deb
+-rw-r--r--  1 runner  staff  174142 Nov 21 04:50 MochyiOS_0.1.0.ipa
+ new Debian package, version 2.0.
+ size 168580 bytes: control archive=605 bytes.
+     443 bytes,    10 lines      control
+     183 bytes,     5 lines   *  postinst             #!/bin/sh
+      86 bytes,     5 lines   *  postrm               #!/bin/sh
+ Package: com.puc.mochyios
+ Name: Mochy iOS
+ Version: 0.1.0
+ Architecture: iphoneos-arm
+ Description: Music player for iOS 12+ (rootful), a Swift port of Mochy Music. Search and stream from YouTube Music, background playback and lock screen controls.
+ Depends: firmware (>= 12.2)
+ Section: Utilities
+ Maintainer: puc <puc@users.noreply.github.com>
+ Author: puc <puc@users.noreply.github.com>
+ Icon: file:///Applications/MochyiOS.app/AppIcon60x60@2x.png
