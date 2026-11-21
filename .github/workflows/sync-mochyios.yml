@@ -1,0 +1,50 @@
+name: Sync Mochy iOS release
+
+# Lấy file .deb của bản ổn định mới nhất từ HGPhutJB/Mochy-iOS vào nguồn Sileo này.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-mochyios
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      SRC: HGPhutJB/Mochy-iOS
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download the latest stable .deb
+        id: fetch
+        run: |
+          set -euo pipefail
+          TAG="$(gh release view --repo "$SRC" --json tagName,isPrerelease -q 'select(.isPrerelease == false) | .tagName' 2>/dev/null || true)"
+          if [ -z "$TAG" ]; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          rm -rf /tmp/dl && mkdir /tmp/dl
+          gh release download "$TAG" --repo "$SRC" --pattern 'com.puc.mochyios_*.deb' --dir /tmp/dl
+          NEW="$(ls /tmp/dl/*.deb | head -n 1)"; NAME="$(basename "$NEW")"
+          if [ -f "debs/$NAME" ] && cmp -s "$NEW" "debs/$NAME"; then echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          rm -f debs/com.puc.mochyios_*.deb
+          cp "$NEW" debs/
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "name=$NAME" >> "$GITHUB_OUTPUT"
+
+      - name: Regenerate the repo and push
+        if: steps.fetch.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "Puc"
+          git config user.email "HGPhutJB@users.noreply.github.com"
+          python3 tools/generate.py
+          git add -A
+          git commit -m "Mochy iOS: đồng bộ ${{ steps.fetch.outputs.name }} từ HGPhutJB/Mochy-iOS"
+          git pull --rebase origin main
+          git push origin HEAD:main
