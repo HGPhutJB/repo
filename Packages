@@ -38,15 +38,15 @@ SileoDepiction: https://hgphutjb.github.io/repo/depictions/com.puc.claudemini.js
 Description: Lightweight Gemini and Claude AI chat client for iOS 12+ (rootful) with skins, dark mode, chat wallpapers and alternate app icons. Bring your own API key.
 
 Package: com.puc.mochyios
-Version: 0.7.5
+Version: 0.7.6
 Architecture: iphoneos-arm
 Maintainer: puc <puc@users.noreply.github.com>
 Depends: firmware (>= 12.2)
-Filename: debs/com.puc.mochyios_0.7.5_iphoneos-arm.deb
-Size: 1429752
-MD5sum: 35720beb6f517153cf3138ef4ed9e65e
-SHA1: d20502051ef3f6bee5c2f99a4247318de3b4d75a
-SHA256: 2e439dbb1adb85934fa40916e8b1f0474cd85a5e8dbdf3e06036e955a6870e02
+Filename: debs/com.puc.mochyios_0.7.6_iphoneos-arm.deb
+Size: 1430006
+MD5sum: d7b432e4e564b0504d4ead5e58bbdb3d
+SHA1: d3c8d487df407343fa73662f66265c9b4270717e
+SHA256: 0859373cfe5b96977a1d79245ccc62dfdbd3312e145a024a410fbc1d668c456c
 Section: Ứng dụng
 Name: Mochy iOS
 Author: puc <puc@users.noreply.github.com>
