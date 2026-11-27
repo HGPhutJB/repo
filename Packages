@@ -43,10 +43,10 @@ Architecture: iphoneos-arm
 Maintainer: puc <puc@users.noreply.github.com>
 Depends: firmware (>= 12.2)
 Filename: debs/com.puc.mochyios_0.17.2_iphoneos-arm.deb
-Size: 1693334
-MD5sum: cd6681a7621360d4747558f659343fb6
-SHA1: b6525682781d80322b6538200485a107b76a5119
-SHA256: 20e283ba29aeeed1dff98f7a5ef964240bf5490323b9939bf9503045d36a3dff
+Size: 1693338
+MD5sum: d3f955352a7008f7e0555c18c292974d
+SHA1: a6016e4e9aa275f6c7b10f82362aec0ec3f6fcc3
+SHA256: 0ed8c7337cb8522fda9549e303982b5b63240288c959aa0345de7f5bc5b64f0e
 Section: Ứng dụng
 Name: Mochy Remake
 Author: puc <puc@users.noreply.github.com>
